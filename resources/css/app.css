@@ -5,3 +5,10 @@
 .body {
     margin: 0;
 }
+.menu-item-selected {
+    @apply bg-white text-primary !important;
+} 
+.pec-menu-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr auto;
+}
