@@ -7,7 +7,7 @@
         <x-icons x-show="!show" name="down-arrow"></x-icon>
     </div>
     {{-- links --}}
-    <div x-show="show" @mouseover="show = show" class="absolute" style="display:none">
+    <div x-show="show" @mouseover="show = show" class="absolute z-10" style="display:none">
         {{ $slot }}
     </div>
 </div>
