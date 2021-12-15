@@ -1,0 +1,409 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+            "id": 15,
+            "name": {
+              "it": "Pedalate amiche – Itinerario",
+              "en": null
+            },
+            "description": {
+              "it": "<p>A Modena, in localit&agrave; Ponte Alto, si imbocca l&rsquo;argine destro del Secchia (cartello &ldquo;via Metastasio&rdquo; - catena) incontrando subito il cippo n&deg; 41. Si inizia a risalire il corso del fiume accompagnati dal susseguirsi regolare e decrescente dei pilastrini in cemento e, giunti in prossimit&agrave; dei Tre Olmi e del cippo n&deg; 19, si ignora sulla destra la sterrata che porta al nuovo ponte in ferro della Barchetta e si tira diritto su fondo ghiaiato. Tra pioppeti e vigne si sottopassa l&rsquo;autostrada e si arriva all&rsquo;inizio dello stradello Cenna, nei pressi della trattoria La Piola. Qui ci riportiamo sull&rsquo;argine maestro mentre pi&ugrave; avanti, superato il Canalazzo di Cittanova (ponticello) il percorso si riavvicina al corso d&rsquo;acqua ai margini di un boschetto dominato da pioppi, salici e ontani che fa parte della Riserva Naturale della Cassa di Espansione del Secchia; poco pi&ugrave; avanti si pu&ograve; osservare sulla destra lo sbarramento in cemento armato, l&rsquo;elemento principale dell&rsquo;articolato sistema realizzato per regolare le piene del fiume. Proseguendo sull&rsquo;argine giungiamo in prossimit&agrave; di Marzaglia dove si sottopassa la linea ferroviaria e la strada statale n&deg; 9 via Emilia. Continuando si costeggia un frantoio e si entra in comune di Formigine (pannello &ldquo;zona tutela ambientale del fiume Secchia&rdquo;). Ancora poche pedalate e siamo all&rsquo;ingresso dell&rsquo;Oasi di Colombarone (zona umida tutelata) riconoscibile per il Centro visite e il capanno di osservazione dell&rsquo;avifauna. Qui si effettua una deviazione sulla pista ciclabile che conduce a Magreta dove si riprende il percorso natura nei pressi del il campo volo per aereomodelli e ci si immette sullo stradello ghiaiato che ci accompagna fino al sottopasso della strada statale n&deg; 467 di Scandiano. Da qui in breve al campo calcio di Borgo Venezia (Sassuolo). Dopo aver scavalcato il torrente Vallurbana su ponticello di legno, si arriva nei pressi di San Michele (sottopassaggio per il centro del paese), da cui in breve alla traversa di Castellarano, che permette di portarsi sul lato opposto del fiume per una visita al centro storico del paese e per un eventuale anello ciclistico sulla pista ciclabile che percorre la sponda reggiana del fiume. Siamo ormai alla fine delle nostre fatiche: proseguendo in riva modenese si supera su ponticello il fosso Pescarolo arrivando infine alla base della Rupe del Pescale.</p>",
+              "en": null
+            },
+            "excerpt": {
+              "it": ""
+            },
+            "slug": "sentieri-numerati",
+            "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg",
+            "taxonomy": {
+              "activity": [
+              {
+                "id": 2,
+                "created_at": "2021-07-05T16:34:23.000000Z",
+                "updated_at": "2021-07-19T08:21:01.000000Z",
+                "name": {
+                  "it": "In bicicletta",
+                  "en": "In bicicletta"
+                },
+                "description": {
+                  "en": null
+                },
+                "excerpt": {
+                  "en": null
+                },
+                "identifier": "cycling",
+                "stroke_width": "2.5",
+                "min_visible_zoom": "5",
+                "min_size_zoom": "19",
+                "min_size": "1",
+                "max_size": "4",
+                "icon_zoom": "5",
+                "icon_size": "0.1"
+              }
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.4644775390625,
+            44.44162421758805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "id": 16,
+            "name": {
+              "it": "Pedalate amiche",
+              "en": null
+            },
+            "description": {
+              "it": "<p>A Modena, in localit&agrave; Ponte Alto, si imbocca l&rsquo;argine destro del Secchia (cartello)</p>",
+              "en": null
+            },
+            "slug": "sentieri-numerati",
+            "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg",
+            "taxonomy": {
+              "activity": [
+              {
+                "id": 2,
+                "created_at": "2021-07-05T16:34:23.000000Z",
+                "updated_at": "2021-07-19T08:21:01.000000Z",
+                "name": {
+                  "it": "In bicicletta",
+                  "en": "In bicicletta"
+                },
+                "description": {
+                  "en": null
+                },
+                "excerpt": {
+                  "en": null
+                },
+                "identifier": "cycling",
+                "stroke_width": "2.5",
+                "min_visible_zoom": "5",
+                "min_size_zoom": "19",
+                "min_size": "1",
+                "max_size": "4",
+                "icon_zoom": "5",
+                "icon_size": "0.1"
+              }
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.9588623046875,
+            44.24519901522129
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "id": 17,
+            "name": {
+              "it": "Pedalate amiche – Itinerario 11 Percorso Natura Secchia (1)",
+              "en": null
+            },
+            "description": {
+              "it": "<p>A Modena, in localit&agrave; Ponte Alto, si imbocca l&rsquo;argine destro del Secchia (cartello &ldquo;via Metastasio&rdquo; - catena) incontrando subito il cippo n&deg; 41. Si inizia a risalire il corso del fiume accompagnati dal susseguirsi regolare e decrescente dei pilastrini in cemento e, giunti in prossimit&agrave; dei Tre Olmi e del cippo n&deg; 19, si ignora sulla destra la sterrata che porta al nuovo ponte in ferro della Barchetta e si tira diritto su fondo ghiaiato. Tra pioppeti e vigne si sottopassa l&rsquo;autostrada e si arriva all&rsquo;inizio dello stradello Cenna, nei pressi della trattoria La Piola. Qui ci riportiamo sull&rsquo;argine maestro mentre pi&ugrave; avanti, superato il Canalazzo di Cittanova (ponticello) il percorso si riavvicina al corso d&rsquo;acqua ai margini di un boschetto dominato da pioppi, salici e ontani che fa parte della Riserva Naturale della Cassa di Espansione del Secchia; poco pi&ugrave; avanti si pu&ograve; osservare sulla destra lo sbarramento in cemento armato, l&rsquo;elemento principale dell&rsquo;articolato sistema realizzato per regolare le piene del fiume. Proseguendo sull&rsquo;argine giungiamo in prossimit&agrave; di Marzaglia dove si sottopassa la linea ferroviaria e la strada statale n&deg; 9 via Emilia. Continuando si costeggia un frantoio e si entra in comune di Formigine (pannello &ldquo;zona tutela ambientale del fiume Secchia&rdquo;). Ancora poche pedalate e siamo all&rsquo;ingresso dell&rsquo;Oasi di Colombarone (zona umida tutelata) riconoscibile per il Centro visite e il capanno di osservazione dell&rsquo;avifauna. Qui si effettua una deviazione sulla pista ciclabile che conduce a Magreta dove si riprende il percorso natura nei pressi del il campo volo per aereomodelli e ci si immette sullo stradello ghiaiato che ci accompagna fino al sottopasso della strada statale n&deg; 467 di Scandiano. Da qui in breve al campo calcio di Borgo Venezia (Sassuolo). Dopo aver scavalcato il torrente Vallurbana su ponticello di legno, si arriva nei pressi di San Michele (sottopassaggio per il centro del paese), da cui in breve alla traversa di Castellarano, che permette di portarsi sul lato opposto del fiume per una visita al centro storico del paese e per un eventuale anello ciclistico sulla pista ciclabile che percorre la sponda reggiana del fiume. Siamo ormai alla fine delle nostre fatiche: proseguendo in riva modenese si supera su ponticello il fosso Pescarolo arrivando infine alla base della Rupe del Pescale.</p>",
+              "en": null
+            },
+            "slug": "sentieri-numerati",
+            "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg",
+            "taxonomy": {
+              "activity": [
+              {
+                "id": 2,
+                "created_at": "2021-07-05T16:34:23.000000Z",
+                "updated_at": "2021-07-19T08:21:01.000000Z",
+                "name": {
+                  "it": "In bicicletta",
+                  "en": "In bicicletta"
+                },
+                "description": {
+                  "en": null
+                },
+                "excerpt": {
+                  "en": null
+                },
+                "identifier": "cycling",
+                "stroke_width": "2.5",
+                "min_visible_zoom": "5",
+                "min_size_zoom": "19",
+                "min_size": "1",
+                "max_size": "4",
+                "icon_zoom": "5",
+                "icon_size": "0.1"
+              }
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.6402587890625,
+            44.08758502824516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "id": 17,
+            "name": {
+              "it": "Pedalate amiche – Itinerario 11 Percorso Natura Secchia (1)",
+              "en": null
+            },
+            "description": {
+              "it": "<p>A Modena, in localit&agrave; Ponte Alto, si imbocca l&rsquo;argine destro del Secchia (cartello &ldquo;via Metastasio&rdquo; - catena) incontrando subito il cippo n&deg; 41. Si inizia a risalire il corso del fiume accompagnati dal susseguirsi regolare e decrescente dei pilastrini in cemento e, giunti in prossimit&agrave; dei Tre Olmi e del cippo n&deg; 19, si ignora sulla destra la sterrata che porta al nuovo ponte in ferro della Barchetta e si tira diritto su fondo ghiaiato. Tra pioppeti e vigne si sottopassa l&rsquo;autostrada e si arriva all&rsquo;inizio dello stradello Cenna, nei pressi della trattoria La Piola. Qui ci riportiamo sull&rsquo;argine maestro mentre pi&ugrave; avanti, superato il Canalazzo di Cittanova (ponticello) il percorso si riavvicina al corso d&rsquo;acqua ai margini di un boschetto dominato da pioppi, salici e ontani che fa parte della Riserva Naturale della Cassa di Espansione del Secchia; poco pi&ugrave; avanti si pu&ograve; osservare sulla destra lo sbarramento in cemento armato, l&rsquo;elemento principale dell&rsquo;articolato sistema realizzato per regolare le piene del fiume. Proseguendo sull&rsquo;argine giungiamo in prossimit&agrave; di Marzaglia dove si sottopassa la linea ferroviaria e la strada statale n&deg; 9 via Emilia. Continuando si costeggia un frantoio e si entra in comune di Formigine (pannello &ldquo;zona tutela ambientale del fiume Secchia&rdquo;). Ancora poche pedalate e siamo all&rsquo;ingresso dell&rsquo;Oasi di Colombarone (zona umida tutelata) riconoscibile per il Centro visite e il capanno di osservazione dell&rsquo;avifauna. Qui si effettua una deviazione sulla pista ciclabile che conduce a Magreta dove si riprende il percorso natura nei pressi del il campo volo per aereomodelli e ci si immette sullo stradello ghiaiato che ci accompagna fino al sottopasso della strada statale n&deg; 467 di Scandiano. Da qui in breve al campo calcio di Borgo Venezia (Sassuolo). Dopo aver scavalcato il torrente Vallurbana su ponticello di legno, si arriva nei pressi di San Michele (sottopassaggio per il centro del paese), da cui in breve alla traversa di Castellarano, che permette di portarsi sul lato opposto del fiume per una visita al centro storico del paese e per un eventuale anello ciclistico sulla pista ciclabile che percorre la sponda reggiana del fiume. Siamo ormai alla fine delle nostre fatiche: proseguendo in riva modenese si supera su ponticello il fosso Pescarolo arrivando infine alla base della Rupe del Pescale.</p>",
+              "en": null
+            },
+            "slug": "sentieri-numerati",
+            "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg",
+            "taxonomy": {
+              "activity": [
+              {
+                "id": 2,
+                "created_at": "2021-07-05T16:34:23.000000Z",
+                "updated_at": "2021-07-19T08:21:01.000000Z",
+                "name": {
+                  "it": "In bicicletta",
+                  "en": "In bicicletta"
+                },
+                "description": {
+                  "en": null
+                },
+                "excerpt": {
+                  "en": null
+                },
+                "identifier": "cycling",
+                "stroke_width": "2.5",
+                "min_visible_zoom": "5",
+                "min_size_zoom": "19",
+                "min_size": "1",
+                "max_size": "4",
+                "icon_zoom": "5",
+                "icon_size": "0.1"
+              }
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.6402587890625,
+            44.08758502824516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "id": 17,
+            "name": {
+              "it": "Pedalate amiche – Itinerario 11 Percorso Natura Secchia (1)",
+              "en": null
+            },
+            "description": {
+              "it": "<p>A Modena, in localit&agrave; Ponte Alto, si imbocca l&rsquo;argine destro del Secchia (cartello &ldquo;via Metastasio&rdquo; - catena) incontrando subito il cippo n&deg; 41. Si inizia a risalire il corso del fiume accompagnati dal susseguirsi regolare e decrescente dei pilastrini in cemento e, giunti in prossimit&agrave; dei Tre Olmi e del cippo n&deg; 19, si ignora sulla destra la sterrata che porta al nuovo ponte in ferro della Barchetta e si tira diritto su fondo ghiaiato. Tra pioppeti e vigne si sottopassa l&rsquo;autostrada e si arriva all&rsquo;inizio dello stradello Cenna, nei pressi della trattoria La Piola. Qui ci riportiamo sull&rsquo;argine maestro mentre pi&ugrave; avanti, superato il Canalazzo di Cittanova (ponticello) il percorso si riavvicina al corso d&rsquo;acqua ai margini di un boschetto dominato da pioppi, salici e ontani che fa parte della Riserva Naturale della Cassa di Espansione del Secchia; poco pi&ugrave; avanti si pu&ograve; osservare sulla destra lo sbarramento in cemento armato, l&rsquo;elemento principale dell&rsquo;articolato sistema realizzato per regolare le piene del fiume. Proseguendo sull&rsquo;argine giungiamo in prossimit&agrave; di Marzaglia dove si sottopassa la linea ferroviaria e la strada statale n&deg; 9 via Emilia. Continuando si costeggia un frantoio e si entra in comune di Formigine (pannello &ldquo;zona tutela ambientale del fiume Secchia&rdquo;). Ancora poche pedalate e siamo all&rsquo;ingresso dell&rsquo;Oasi di Colombarone (zona umida tutelata) riconoscibile per il Centro visite e il capanno di osservazione dell&rsquo;avifauna. Qui si effettua una deviazione sulla pista ciclabile che conduce a Magreta dove si riprende il percorso natura nei pressi del il campo volo per aereomodelli e ci si immette sullo stradello ghiaiato che ci accompagna fino al sottopasso della strada statale n&deg; 467 di Scandiano. Da qui in breve al campo calcio di Borgo Venezia (Sassuolo). Dopo aver scavalcato il torrente Vallurbana su ponticello di legno, si arriva nei pressi di San Michele (sottopassaggio per il centro del paese), da cui in breve alla traversa di Castellarano, che permette di portarsi sul lato opposto del fiume per una visita al centro storico del paese e per un eventuale anello ciclistico sulla pista ciclabile che percorre la sponda reggiana del fiume. Siamo ormai alla fine delle nostre fatiche: proseguendo in riva modenese si supera su ponticello il fosso Pescarolo arrivando infine alla base della Rupe del Pescale.</p>",
+              "en": null
+            },
+            "slug": "sentieri-numerati",
+            "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg",
+            "taxonomy": {
+              "activity": [
+              {
+                "id": 2,
+                "created_at": "2021-07-05T16:34:23.000000Z",
+                "updated_at": "2021-07-19T08:21:01.000000Z",
+                "name": {
+                  "it": "In bicicletta",
+                  "en": "In bicicletta"
+                },
+                "description": {
+                  "en": null
+                },
+                "excerpt": {
+                  "en": null
+                },
+                "identifier": "cycling",
+                "stroke_width": "2.5",
+                "min_visible_zoom": "5",
+                "min_size_zoom": "19",
+                "min_size": "1",
+                "max_size": "4",
+                "icon_zoom": "5",
+                "icon_size": "0.1"
+              }
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.6402587890625,
+            44.08758502824516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "id": 17,
+            "name": {
+              "it": "Pedalate amiche – Itinerario 11 Percorso Natura Secchia (1)",
+              "en": null
+            },
+            "description": {
+              "it": "<p>A Modena, in localit&agrave; Ponte Alto, si imbocca l&rsquo;argine destro del Secchia (cartello &ldquo;via Metastasio&rdquo; - catena) incontrando subito il cippo n&deg; 41. Si inizia a risalire il corso del fiume accompagnati dal susseguirsi regolare e decrescente dei pilastrini in cemento e, giunti in prossimit&agrave; dei Tre Olmi e del cippo n&deg; 19, si ignora sulla destra la sterrata che porta al nuovo ponte in ferro della Barchetta e si tira diritto su fondo ghiaiato. Tra pioppeti e vigne si sottopassa l&rsquo;autostrada e si arriva all&rsquo;inizio dello stradello Cenna, nei pressi della trattoria La Piola. Qui ci riportiamo sull&rsquo;argine maestro mentre pi&ugrave; avanti, superato il Canalazzo di Cittanova (ponticello) il percorso si riavvicina al corso d&rsquo;acqua ai margini di un boschetto dominato da pioppi, salici e ontani che fa parte della Riserva Naturale della Cassa di Espansione del Secchia; poco pi&ugrave; avanti si pu&ograve; osservare sulla destra lo sbarramento in cemento armato, l&rsquo;elemento principale dell&rsquo;articolato sistema realizzato per regolare le piene del fiume. Proseguendo sull&rsquo;argine giungiamo in prossimit&agrave; di Marzaglia dove si sottopassa la linea ferroviaria e la strada statale n&deg; 9 via Emilia. Continuando si costeggia un frantoio e si entra in comune di Formigine (pannello &ldquo;zona tutela ambientale del fiume Secchia&rdquo;). Ancora poche pedalate e siamo all&rsquo;ingresso dell&rsquo;Oasi di Colombarone (zona umida tutelata) riconoscibile per il Centro visite e il capanno di osservazione dell&rsquo;avifauna. Qui si effettua una deviazione sulla pista ciclabile che conduce a Magreta dove si riprende il percorso natura nei pressi del il campo volo per aereomodelli e ci si immette sullo stradello ghiaiato che ci accompagna fino al sottopasso della strada statale n&deg; 467 di Scandiano. Da qui in breve al campo calcio di Borgo Venezia (Sassuolo). Dopo aver scavalcato il torrente Vallurbana su ponticello di legno, si arriva nei pressi di San Michele (sottopassaggio per il centro del paese), da cui in breve alla traversa di Castellarano, che permette di portarsi sul lato opposto del fiume per una visita al centro storico del paese e per un eventuale anello ciclistico sulla pista ciclabile che percorre la sponda reggiana del fiume. Siamo ormai alla fine delle nostre fatiche: proseguendo in riva modenese si supera su ponticello il fosso Pescarolo arrivando infine alla base della Rupe del Pescale.</p>",
+              "en": null
+            },
+            "slug": "sentieri-numerati",
+            "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg",
+            "taxonomy": {
+              "activity": [
+              {
+                "id": 2,
+                "created_at": "2021-07-05T16:34:23.000000Z",
+                "updated_at": "2021-07-19T08:21:01.000000Z",
+                "name": {
+                  "it": "In bicicletta",
+                  "en": "In bicicletta"
+                },
+                "description": {
+                  "en": null
+                },
+                "excerpt": {
+                  "en": null
+                },
+                "identifier": "cycling",
+                "stroke_width": "2.5",
+                "min_visible_zoom": "5",
+                "min_size_zoom": "19",
+                "min_size": "1",
+                "max_size": "4",
+                "icon_zoom": "5",
+                "icon_size": "0.1"
+              }
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.6402587890625,
+            44.08758502824516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "id": 17,
+            "name": {
+              "it": "Pedalate amiche – Itinerario 11 Percorso Natura Secchia (1)",
+              "en": null
+            },
+            "description": {
+              "it": "<p>A Modena, in localit&agrave; Ponte Alto, si imbocca l&rsquo;argine destro del Secchia (cartello &ldquo;via Metastasio&rdquo; - catena) incontrando subito il cippo n&deg; 41. Si inizia a risalire il corso del fiume accompagnati dal susseguirsi regolare e decrescente dei pilastrini in cemento e, giunti in prossimit&agrave; dei Tre Olmi e del cippo n&deg; 19, si ignora sulla destra la sterrata che porta al nuovo ponte in ferro della Barchetta e si tira diritto su fondo ghiaiato. Tra pioppeti e vigne si sottopassa l&rsquo;autostrada e si arriva all&rsquo;inizio dello stradello Cenna, nei pressi della trattoria La Piola. Qui ci riportiamo sull&rsquo;argine maestro mentre pi&ugrave; avanti, superato il Canalazzo di Cittanova (ponticello) il percorso si riavvicina al corso d&rsquo;acqua ai margini di un boschetto dominato da pioppi, salici e ontani che fa parte della Riserva Naturale della Cassa di Espansione del Secchia; poco pi&ugrave; avanti si pu&ograve; osservare sulla destra lo sbarramento in cemento armato, l&rsquo;elemento principale dell&rsquo;articolato sistema realizzato per regolare le piene del fiume. Proseguendo sull&rsquo;argine giungiamo in prossimit&agrave; di Marzaglia dove si sottopassa la linea ferroviaria e la strada statale n&deg; 9 via Emilia. Continuando si costeggia un frantoio e si entra in comune di Formigine (pannello &ldquo;zona tutela ambientale del fiume Secchia&rdquo;). Ancora poche pedalate e siamo all&rsquo;ingresso dell&rsquo;Oasi di Colombarone (zona umida tutelata) riconoscibile per il Centro visite e il capanno di osservazione dell&rsquo;avifauna. Qui si effettua una deviazione sulla pista ciclabile che conduce a Magreta dove si riprende il percorso natura nei pressi del il campo volo per aereomodelli e ci si immette sullo stradello ghiaiato che ci accompagna fino al sottopasso della strada statale n&deg; 467 di Scandiano. Da qui in breve al campo calcio di Borgo Venezia (Sassuolo). Dopo aver scavalcato il torrente Vallurbana su ponticello di legno, si arriva nei pressi di San Michele (sottopassaggio per il centro del paese), da cui in breve alla traversa di Castellarano, che permette di portarsi sul lato opposto del fiume per una visita al centro storico del paese e per un eventuale anello ciclistico sulla pista ciclabile che percorre la sponda reggiana del fiume. Siamo ormai alla fine delle nostre fatiche: proseguendo in riva modenese si supera su ponticello il fosso Pescarolo arrivando infine alla base della Rupe del Pescale.</p>",
+              "en": null
+            },
+            "slug": "sentieri-numerati",
+            "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg",
+            "taxonomy": {
+              "activity": [
+              {
+                "id": 2,
+                "created_at": "2021-07-05T16:34:23.000000Z",
+                "updated_at": "2021-07-19T08:21:01.000000Z",
+                "name": {
+                  "it": "In bicicletta",
+                  "en": "In bicicletta"
+                },
+                "description": {
+                  "en": null
+                },
+                "excerpt": {
+                  "en": null
+                },
+                "identifier": "cycling",
+                "stroke_width": "2.5",
+                "min_visible_zoom": "5",
+                "min_size_zoom": "19",
+                "min_size": "1",
+                "max_size": "4",
+                "icon_zoom": "5",
+                "icon_size": "0.1"
+              }
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.6402587890625,
+            44.08758502824516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "id": 17,
+            "name": {
+              "it": "Pedalate amiche – Itinerario 11 Percorso Natura Secchia (1)",
+              "en": null
+            },
+            "description": {
+              "it": "<p>A Modena, in localit&agrave; Ponte Alto, si imbocca l&rsquo;argine destro del Secchia (cartello &ldquo;via Metastasio&rdquo; - catena) incontrando subito il cippo n&deg; 41. Si inizia a risalire il corso del fiume accompagnati dal susseguirsi regolare e decrescente dei pilastrini in cemento e, giunti in prossimit&agrave; dei Tre Olmi e del cippo n&deg; 19, si ignora sulla destra la sterrata che porta al nuovo ponte in ferro della Barchetta e si tira diritto su fondo ghiaiato. Tra pioppeti e vigne si sottopassa l&rsquo;autostrada e si arriva all&rsquo;inizio dello stradello Cenna, nei pressi della trattoria La Piola. Qui ci riportiamo sull&rsquo;argine maestro mentre pi&ugrave; avanti, superato il Canalazzo di Cittanova (ponticello) il percorso si riavvicina al corso d&rsquo;acqua ai margini di un boschetto dominato da pioppi, salici e ontani che fa parte della Riserva Naturale della Cassa di Espansione del Secchia; poco pi&ugrave; avanti si pu&ograve; osservare sulla destra lo sbarramento in cemento armato, l&rsquo;elemento principale dell&rsquo;articolato sistema realizzato per regolare le piene del fiume. Proseguendo sull&rsquo;argine giungiamo in prossimit&agrave; di Marzaglia dove si sottopassa la linea ferroviaria e la strada statale n&deg; 9 via Emilia. Continuando si costeggia un frantoio e si entra in comune di Formigine (pannello &ldquo;zona tutela ambientale del fiume Secchia&rdquo;). Ancora poche pedalate e siamo all&rsquo;ingresso dell&rsquo;Oasi di Colombarone (zona umida tutelata) riconoscibile per il Centro visite e il capanno di osservazione dell&rsquo;avifauna. Qui si effettua una deviazione sulla pista ciclabile che conduce a Magreta dove si riprende il percorso natura nei pressi del il campo volo per aereomodelli e ci si immette sullo stradello ghiaiato che ci accompagna fino al sottopasso della strada statale n&deg; 467 di Scandiano. Da qui in breve al campo calcio di Borgo Venezia (Sassuolo). Dopo aver scavalcato il torrente Vallurbana su ponticello di legno, si arriva nei pressi di San Michele (sottopassaggio per il centro del paese), da cui in breve alla traversa di Castellarano, che permette di portarsi sul lato opposto del fiume per una visita al centro storico del paese e per un eventuale anello ciclistico sulla pista ciclabile che percorre la sponda reggiana del fiume. Siamo ormai alla fine delle nostre fatiche: proseguendo in riva modenese si supera su ponticello il fosso Pescarolo arrivando infine alla base della Rupe del Pescale.</p>",
+              "en": null
+            },
+            "slug": "sentieri-numerati",
+            "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg",
+            "taxonomy": {
+              "activity": [
+              {
+                "id": 2,
+                "created_at": "2021-07-05T16:34:23.000000Z",
+                "updated_at": "2021-07-19T08:21:01.000000Z",
+                "name": {
+                  "it": "In bicicletta",
+                  "en": "In bicicletta"
+                },
+                "description": {
+                  "en": null
+                },
+                "excerpt": {
+                  "en": null
+                },
+                "identifier": "cycling",
+                "stroke_width": "2.5",
+                "min_visible_zoom": "5",
+                "min_size_zoom": "19",
+                "min_size": "1",
+                "max_size": "4",
+                "icon_zoom": "5",
+                "icon_size": "0.1"
+              }
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.6402587890625,
+            44.08758502824516
+          ]
+        }
+      }
+    ]
+  }
+  
