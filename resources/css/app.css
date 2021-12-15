@@ -2,17 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
 @layer base {
     @font-face {
-      font-family: 'Manrope', sans-serif;
+      font-family: Manrope;
       font-weight: 400;
-      src: url(/fonts/Manrope/static/Manrope-Regular.ttf) format("ttf");
+      src: url(/fonts/Manrope/static/Manrope-Regular.ttf);
     }
     @font-face {
-      font-family: 'Manrope', sans-serif;
+      font-family: Manrope;
       font-weight: 800;
-      src: url(/fonts/Manrope/static/Manrope-ExtraBold.ttf) format("ttf");
+      src: url(/fonts/Manrope/static/Manrope-ExtraBold.ttf);
     }
 } 
 
