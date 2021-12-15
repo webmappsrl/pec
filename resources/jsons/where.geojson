@@ -1,0 +1,150 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+            "id": 15,
+            "description": "Sentieri ufficiali 1 presenti nel catasto regionale della regione Emilia Romagna.",
+            "name": "Sentieri numerati 1",
+            "slug": "sentieri-numerati",
+            "taxonomy": "where",
+            "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.4644775390625,
+            44.44162421758805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "id": 16,
+            "description": "Sentieri ufficiali 2 presenti nel catasto regionale della regione Emilia Romagna.",
+            "name": "Sentieri numerati 2",
+            "slug": "sentieri-numerati",
+            "taxonomy": "where",
+            "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.9588623046875,
+            44.24519901522129
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "id": 17,
+            "description": "Sentieri ufficiali 4 presenti nel catasto regionale della regione Emilia Romagna.",
+            "name": "Sentieri numerati 3",
+            "slug": "sentieri-numerati",
+            "taxonomy": "where",
+            "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.6402587890625,
+            44.08758502824516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "id": 17,
+            "description": "Sentieri ufficiali 4 presenti nel catasto regionale della regione Emilia Romagna.",
+            "name": "Sentieri numerati 4",
+            "slug": "sentieri-numerati",
+            "taxonomy": "where",
+            "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.6402587890625,
+            44.08758502824516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "id": 17,
+            "description": "Sentieri ufficiali 4 presenti nel catasto regionale della regione Emilia Romagna.",
+            "name": "Sentieri numerati 5",
+            "slug": "sentieri-numerati",
+            "taxonomy": "where",
+            "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.6402587890625,
+            44.08758502824516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "id": 17,
+            "description": "Sentieri ufficiali 4 presenti nel catasto regionale della regione Emilia Romagna.",
+            "name": "Sentieri numerati 6",
+            "slug": "sentieri-numerati",
+            "taxonomy": "where",
+            "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.6402587890625,
+            44.08758502824516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "id": 17,
+            "description": "Sentieri ufficiali 4 presenti nel catasto regionale della regione Emilia Romagna.",
+            "name": "Sentieri numerati 7",
+            "slug": "sentieri-numerati",
+            "taxonomy": "where",
+            "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.6402587890625,
+            44.08758502824516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "id": 17,
+            "description": "Sentieri ufficiali 4 presenti nel catasto regionale della regione Emilia Romagna.",
+            "name": "Sentieri numerati 8",
+            "slug": "sentieri-numerati",
+            "taxonomy": "where",
+            "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.6402587890625,
+            44.08758502824516
+          ]
+        }
+      }
+    ]
+  }
+  
