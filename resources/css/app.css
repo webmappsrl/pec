@@ -2,13 +2,73 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+@layer base {
+    @font-face {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 400;
+      src: url(/fonts/Manrope/static/Manrope-Regular.ttf) format("ttf");
+    }
+    @font-face {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 800;
+      src: url(/fonts/Manrope/static/Manrope-ExtraBold.ttf) format("ttf");
+    }
+} 
+
+@media screen and (min-width:769px) {
+    .pec-menu-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr auto;
+    }
+    .explore-grid {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    }
+    .explore-grid div{
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    .explore-grid {
+        display: grid;
+        grid-auto-flow: column;
+        grid-gap: 1rem;
+        overflow-x: scroll;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+    .explore-grid::-webkit-scrollbar {
+        display: none;
+    }
+    .explore-grid div{
+        min-width: 300px;
+    }
+    /* .swiper-slide { width: 80%!important } */
+}
 .body {
     margin: 0;
+}
+p,div {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
 }
 .menu-item-selected {
     @apply bg-white text-primary !important;
 } 
-.pec-menu-items {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr auto;
+
+h2 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 33px;
+    color: #003300;
+}
+h3 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    color: #003300;
 }
