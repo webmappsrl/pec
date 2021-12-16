@@ -16,4 +16,5 @@
         <x-home.highlight-pois :features="$tracks"></x-highlight-pois>
         <x-cta-map></x-cta-map>
     </main>
+    <x-footer/>
 </x-siteLayout>
