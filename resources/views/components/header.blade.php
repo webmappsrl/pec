@@ -6,7 +6,7 @@
     </div>
     <div class="px-4 py-4">
         <div class="max-w-screen-xl m-auto grid grid-cols-4">
-            <div class="col-span-2"><img src="{{asset('images/logo-pec.png')}}" alt="pec logo" class=""></div>
+            <div class="col-span-2"><a href="/"><img src="{{asset('images/logo-pec.png')}}" alt="pec logo" class=""></a></div>
             <div class="col-span-1 self-center justify-self-end">
                 <div class="rounded-md border border-black-500 p-2 grid-flow-col inline-grid ">
                     <img src="{{asset('images/lent.png')}}" alt="search icon" class="cursor-pointer px-2 py-1"><input type="text" placeholder="Cerca nel sito" class="focus:outline-none pl-4">
