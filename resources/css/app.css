@@ -28,6 +28,27 @@
     .explore-grid div{
         width: 100%;
     }
+    .taxonomy-body h2 {
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 27px;
+        color: #003300;
+    }
+    h2 {
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 33px;
+        color: #003300;
+    }
+    h3 {
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 23px;
+        color: #003300;
+    }
 }
 @media screen and (max-width:768px) {
     .explore-grid {
@@ -45,6 +66,20 @@
         min-width: 300px;
     }
     /* .swiper-slide { width: 80%!important } */
+    h2 {
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size:  22px;
+        color: #003300;
+    }
+    h3 {
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        color: #003300;
+    }
 }
 .body {
     margin: 0;
@@ -57,17 +92,3 @@ p,div {
     @apply bg-white text-primary !important;
 } 
 
-h2 {
-    font-family: 'Manrope', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 33px;
-    color: #003300;
-}
-h3 {
-    font-family: 'Manrope', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 23px;
-    color: #003300;
-}

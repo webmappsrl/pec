@@ -14,7 +14,7 @@
         <x-home.explore :features="$explore"></x-explore>
         <x-home.highlight-tracks :features="$tracks"></x-highlight-tracks>
         <x-home.highlight-pois :features="$tracks"></x-highlight-pois>
-        <x-cta-map></x-cta-map>
+        <x-cta-map :link="0"></x-cta-map>
     </main>
     <x-footer/>
 </x-siteLayout>

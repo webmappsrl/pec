@@ -32971,6 +32971,30 @@ video {
   .explore-grid div{
     width: 100%;
   }
+
+  .taxonomy-body h2 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 27px;
+    color: #003300;
+  }
+
+  h2 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 33px;
+    color: #003300;
+  }
+
+  h3 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    color: #003300;
+  }
 }
 
 @media screen and (max-width:768px) {
@@ -32992,6 +33016,22 @@ video {
   }
 
   /* .swiper-slide { width: 80%!important } */
+
+  h2 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size:  22px;
+    color: #003300;
+  }
+
+  h3 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    color: #003300;
+  }
 }
 
 .body {
@@ -33008,22 +33048,6 @@ p,div {
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity)) !important;
   --tw-text-opacity: 1 !important;
   color: rgba(0, 51, 0, var(--tw-text-opacity)) !important;
-}
-
-h2 {
-  font-family: 'Manrope', sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 33px;
-  color: #003300;
-}
-
-h3 {
-  font-family: 'Manrope', sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 23px;
-  color: #003300;
 }
 
 @media (min-width: 640px) {
@@ -194464,5 +194488,6 @@ h3 {
   .\32xl\:ease-in-out {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-}
+} 
+
 
