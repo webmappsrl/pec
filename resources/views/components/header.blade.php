@@ -40,7 +40,7 @@
                     <x-slot name="trigger">
                         <x-dropdown-button>I parchi</x-dropdown-button>
                     </x-slot>
-                    <x-dropdown-item href="#1">Parco del Frignano</x-dropdown-item>
+                    <x-dropdown-item href="/taxonomy/parco-del-frignano">Parco del Frignano</x-dropdown-item>
                     <x-dropdown-item href="#2">Parco dei Sassi di Roccamalatina</x-dropdown-item>
                     <x-dropdown-item href="#3">Riserva Fontanili di Corte Valle Re</x-dropdown-item>
                     <x-dropdown-item href="#4">Riserva Salse di Nirano</x-dropdown-item>

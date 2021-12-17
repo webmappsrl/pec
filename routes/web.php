@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\EcTrack;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,11 +26,21 @@ Route::get('taxonomy/{slug}',function (string $slug) {
     catch (Exception $e) {
         abort(404);
     }
-
-
     $taxonomy = json_decode($file);
-
     return view('taxonomy', [
         'taxonomy' => $taxonomy
     ]);
+});
+
+Route::get('/track/{id}',function($id){
+    
+    $track = EcTrack::find($id);
+
+    if ($track == null) {
+        abort(404);
+    }
+    return view('track',[
+        'track' => $track
+    ]);
+
 });

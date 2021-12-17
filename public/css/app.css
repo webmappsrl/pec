@@ -33050,6 +33050,12 @@ p,div {
   color: rgba(0, 51, 0, var(--tw-text-opacity)) !important;
 }
 
+.map-detail-tab .active {
+  border-bottom: 3px solid #72A747;
+  font-weight: bold;
+  color: #003300;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -194488,6 +194494,4 @@ p,div {
   .\32xl\:ease-in-out {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-} 
-
-
+}

@@ -92,3 +92,8 @@ p,div {
     @apply bg-white text-primary !important;
 } 
 
+.map-detail-tab .active {
+    border-bottom: 3px solid #72A747;
+    font-weight: bold;
+    color: #003300;
+}
