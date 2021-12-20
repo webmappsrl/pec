@@ -32995,6 +32995,14 @@ video {
     font-size: 23px;
     color: #003300;
   }
+
+  h4 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 19px;
+    color: #003300;
+  }
 }
 
 @media screen and (max-width:768px) {
@@ -33030,6 +33038,14 @@ video {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
+    color: #003300;
+  }
+
+  h4 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
     color: #003300;
   }
 }

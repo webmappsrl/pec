@@ -68,7 +68,7 @@
                     <x-dropdown-item href="#6">Ciclovie dei Parchi</x-dropdown-item>
                     <x-dropdown-item href="#7">Percosi Natura in bicicletta</x-dropdown-item>
                 </x-dropdown>
-                <a href="#mappe" class="text-right inline-grid items-center grid-flow-col cursor-pointer text-primary px-6 py-2 hover:text-white hover:bg-primary"><p class="font-bold">Mappe interattive</p></a>
+                <a href="#mappe" class="text-right inline-grid items-center grid-flow-col cursor-pointer text-primary px-6 py-2 hover:text-white hover:bg-primary"><p class="font-bold">Mappa interattiva</p></a>
             </nav>
         </div>
     </div>
