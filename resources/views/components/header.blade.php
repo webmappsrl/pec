@@ -1,7 +1,7 @@
 <header>
     <div class="bg-primary px-4 py-2 text-right">
         <div class="max-w-screen-xl m-auto">
-            <a class="text-white text-sm hover:underline" target="_blank" href="parchiemiliacentrale.it">Parchi Emilia Centrale</a>
+            <a class="text-white text-sm hover:underline" target="_blank" href="http://www.parchiemiliacentrale.it/">Parchi Emilia Centrale</a>
         </div>
     </div>
     <div class="px-4 py-4">

@@ -1,6 +1,5 @@
 @props(['track'])
 @php
-    use App\Models\EcPoi;
     $classes = 'text-secondary uppercase border-b border-gray-300 border-solid w-full text-center pt-4 pb-2 tab-nav-link';
     $details = array();
     if ($track->distance)
@@ -41,30 +40,9 @@
             </div>
         @endif
      </div>
-     <div x-show="tab === 'relatedpois'" style="overflow-y: auto;max-height: 615px;">
+     <div x-show="tab === 'relatedpois'" class="overflow-y-auto" style="max-height: 615px;">
          @foreach ($track->ecPois as $poi)
-            @php
-                $poi = EcPoi::find($poi->id);
-                if (!$poi->featureImage) {
-                    $featured_image = asset('images/banner-1.png');
-                } else {
-                    $featured_image = $poi->featureImage->thumbnail('118x117');
-                }
-            @endphp
-            <div class="px-8 py-4 grid grid-cols-3 gap-4 items-center">
-                <div class="bg-cover bg-center bg-no-repeat rounded-lg col-span-1" style="width:120px;height:120px;background-image:url('{{$featured_image}}')">
-                </div>
-                <div class="col-span-2 pl-4">
-                    <h4 style="display: -webkit-inline-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;
-                    overflow: hidden;">
-                        {{$poi->name}}
-                    </h4>               
-                    <div style="display: -webkit-inline-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;
-                    overflow: hidden;">
-                        {!! $poi->description !!}
-                    </div>
-                </div> 
-            </div>
+            <x-track.poi :poi="$poi"/>
          @endforeach
      </div>
 </div>

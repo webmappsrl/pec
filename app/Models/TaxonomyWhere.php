@@ -16,6 +16,11 @@ class TaxonomyWhere extends Model
     public function ecTracks(): MorphToMany {
         return $this->morphedByMany(EcTrack::class, 'taxonomy_whereable');
     }
+
+    public function ecPoi(): MorphToMany {
+        return $this->morphedByMany(EcPoi::class, 'taxonomy_whereable');
+    }
+
 }
 
 

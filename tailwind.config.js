@@ -17,6 +17,9 @@ module.exports = {
         'primary-dark': '#CCDFBD',
         'primary-border': '#72A747',
         'light-grey': '#F2F2F2'
+      },
+      zIndex: {
+        '1000': '1000',
       }
     },
   },

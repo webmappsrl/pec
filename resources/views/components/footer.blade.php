@@ -2,7 +2,7 @@
     <img class="w-full m-0" src="{{asset('images/footer.png')}}" alt="footer pec image" class="">
     <div class="px-4 py-8 bg-primary-light">
         <div class="max-w-screen-xl m-auto grid grid-cols-3">
-            <div class="col-span-2"><img src="{{asset('images/logo-pec-footer.png')}}" alt="pec logo"  class=""></div>
+            <div class="col-span-2"><a href="/"><img src="{{asset('images/logo-pec-footer.png')}}" alt="pec logo"  class=""></a></div>
             <div class="col-span-1 text-right">
                 <div class="grid-flow-col inline-grid gap-6 h-full items-center">
                     <p class="m-0 uppercase">Seguici su</p>  
@@ -32,8 +32,8 @@
     <div class="bg-primary-dark px-4 py-4">
         <div class="max-w-screen-xl m-auto">
             <a class="text-primary font-bold text-sm hover:underline" target="_blank" href="parchiemiliacentrale.it">Privacy Policy</a>
-            <span class="mx-8"></span>
-            <a class="text-primary font-bold text-sm hover:underline" target="_blank" href="parchiemiliacentrale.it">Note Legali</a>
+            {{-- <span class="mx-8"></span>
+            <a class="text-primary font-bold text-sm hover:underline" target="_blank" href="parchiemiliacentrale.it">Note Legali</a> --}}
         </div>
     </div>
     <div class="text-center text-sm py-2">

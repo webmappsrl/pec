@@ -1,11 +1,11 @@
 <div class="swiper-slide p-8 md:p-2">
-    <a class="mt-8 text-lg uppercase font-bold inline-flex items-center" href="/track/{{$feature->properties->id}}">
+    <a class="text-lg font-bold inline-flex items-center" href="/track/{{$feature->properties->id}}">
     <div class="flex flex-col rounded-lg shadow-md overflow-hidden duration-300 hover:shadow-lg">
         <div class="flex-shrink-0">
             <img class="h-48 w-full object-cover" src="{{$feature->properties->image}}" alt="">
         </div>
         <div class="bg-white p-6 text-primary">
-            <h3 class="w-full" style="min-height: 69px;display: -webkit-inline-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;
+            <h3 class="w-full" style="min-height: 57px;display: -webkit-inline-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;
             overflow: hidden;">{{$feature->properties->name->it}}</h3>
             <div class="pt-2" style="min-height: 80px;display: -webkit-inline-box;
             -webkit-line-clamp: 3;
