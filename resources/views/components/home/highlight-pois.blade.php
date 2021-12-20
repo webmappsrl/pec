@@ -4,7 +4,7 @@
     <div class="max-w-screen-xl m-auto py-12 px-4">
         <h2>Cosa vedere</h2>
         <div class="py-4">
-            <div id="carousel">
+            <div id="">
                 <div  x-data="{swiper: null}"
                 x-init="swiper = new Swiper($refs.container, {
                     loop: true,
