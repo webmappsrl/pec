@@ -28,7 +28,12 @@
     
     <div class="fixed top-0 left-0 w-full h-full flex items-center justify-end z-1000" style="display:none;background-color: rgba(0,0,0,.5);" x-show="open">
         <div class="overflow-y-auto text-left bg-white h-screen p-4 md:max-w-xl md:p-12 shadow-xl mx-2 md:mx-0" @click.away="open = false;document.body.style.overflowY = ''"
-        >
+        x-show="open"
+        x-transition:enter="transition ease-out duration-300"
+        x-transition:enter-start="opacity-0 transform translate-x-full"
+        x-transition:enter-end="opacity-100 transform translate-x-0"
+        x-transition:leave="transition ease-in duration-300"
+        x-transition:leave-end="opacity-0 transform translate-x-full">
             <div class="flex justify-between">
                 <div>
                     @if ($poi->taxonomyWheres->count() > 0 )
