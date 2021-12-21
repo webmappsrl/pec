@@ -11,8 +11,8 @@
             $featured_image = asset('images/31.jpg');
             $featured_image_full = asset('images/31.jpg');
         } elseif ($poi->id == '28') {
-            $featured_image = asset('images/28.jpg');
-            $featured_image_full = asset('images/28.jpg');
+            $featured_image = asset('images/28.JPG');
+            $featured_image_full = asset('images/28.JPG');
         } elseif ($poi->id == '29') {
             $featured_image = asset('images/29.jpg');
             $featured_image_full = asset('images/29.jpg');
