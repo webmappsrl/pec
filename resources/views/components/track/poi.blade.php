@@ -5,6 +5,7 @@
     $poi = EcPoi::find($poi->id);
     if (!$poi->featureImage) {
         $featured_image = asset('images/banner-1.png');
+        $featured_image_full = asset('images/banner-1.png');
     } else {
         $featured_image = $poi->featureImage->thumbnail('118x117');
         $featured_image_full = $poi->featureImage->thumbnail('1440x500');
