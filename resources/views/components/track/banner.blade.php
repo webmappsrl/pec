@@ -1,7 +1,11 @@
 @props(['track'])
 @php
     if (!$track->featureImage) {
-        $featured_image = asset('images/banner-1.png');
+        if ($track->id == '123') {
+            $featured_image = asset('images/track-123.JPG');
+        } else {
+            $featured_image = asset('images/banner-1.png');
+        }
     } else {
         $featured_image = $track->featureImage->thumbnail('1440x500');
     }

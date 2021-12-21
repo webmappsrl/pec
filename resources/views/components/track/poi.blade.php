@@ -4,8 +4,22 @@
 
     $poi = EcPoi::find($poi->id);
     if (!$poi->featureImage) {
-        $featured_image = asset('images/banner-1.png');
-        $featured_image_full = asset('images/banner-1.png');
+        if ($poi->id == '32' ) {
+            $featured_image = asset('images/32.jpg');
+            $featured_image_full = asset('images/32.jpg');
+        } elseif ($poi->id == '31') {
+            $featured_image = asset('images/31.jpg');
+            $featured_image_full = asset('images/31.jpg');
+        } elseif ($poi->id == '28') {
+            $featured_image = asset('images/28.jpg');
+            $featured_image_full = asset('images/28.jpg');
+        } elseif ($poi->id == '29') {
+            $featured_image = asset('images/29.jpg');
+            $featured_image_full = asset('images/29.jpg');
+        } else {
+            $featured_image = asset('images/banner-1.png');
+            $featured_image_full = asset('images/banner-1.png');
+        }
     } else {
         $featured_image = $poi->featureImage->thumbnail('118x117');
         $featured_image_full = $poi->featureImage->thumbnail('1440x500');
