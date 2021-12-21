@@ -4,7 +4,7 @@
         $linkto = "https://3.app.geohub.webmapp.it/$link";
     }
     else {
-        $linkto = 'https://3.app.geohub.webmapp.it/';
+        $linkto = 'https://4.app.geohub.webmapp.it';
     }
 @endphp
 <div class="max-w-screen-xl m-auto pt-0 pb-8 md:py-12 px-0 md:px-4">

@@ -1,5 +1,5 @@
 {
-    "type": "Feature",
+    "type": "FeatureCollection",
     "properties": {
         "id": 132,
         "created_at": "2021-11-19T12:20:02.000000Z",
@@ -9,13 +9,13 @@
             "en": null
         },
         "description": {
-            "it": "<h2>Trekking tra storia e natura</h2><p>Ingresso dell&rsquo;Oasi di Colombarone (zona umida tutelata) riconoscibile per il Centro visite e il capanno di osservazione dell&rsquo;avifauna. Qui si effettua una deviazione sulla pista ciclabile che conduce a Magreta dove si riprende il percorso natura nei pressi del il campo volo per aereomodelli e ci si immette sullo stradello ghiaiato che ci accompagna fino al sottopasso della strada statale n&deg; 467 di Scandiano. Da qui in breve al campo calcio di Borgo Venezia (Sassuolo). Dopo aver scavalcato il torrente Vallurbana su ponticello di legno, si arriva nei pressi di San Michele (sottopassaggio per il centro del paese), da cui in breve alla traversa di Castellarano, che permette di portarsi sul lato opposto del fiume per una visita al centro storico del paese e per un eventuale anello ciclistico sulla pista ciclabile che percorre la sponda reggiana del fiume.<\/p>",
+            "it": "<h2>Sui crinali dell'Appennino</h2><p>Il Parco del Frignano si sviluppa sull'Alto Appennino Modenese con oltre 15mila ettari di estensione e un territorio che va dai 500 metri sul livello del mare agli oltre 2.000 della vetta del Cimone, il monte più alto dell'Appennino Tosco-Emiliano. Il Parco presenta un ambiente naturalisticamente ricco ed estremamente variegato. Habitat unici, di cui preservare la biodiversità, favoriscono la crescita e la conservazione di specie rare, vegetali e animali. Circhi glaciali convivono con altri trasformati in torbiere, boschi di faggete con ampie distese di sottobosco, vallette nivali si insediano alle pendici delle montagne più alti, sui quali volteggiano l'aquila reale e altri rapaci.<\/p>",
             "en": null
         },
         "excerpt": {
             "it": ""
         },
-        "image": "/images/banner-1.png",
+        "image": "/images/slide-frignano-itinerari.jpg",
         "distance_comp": 35.1,
         "user_id": 4103,
         "distance": 35.1,
@@ -6475,20 +6475,20 @@
         {
           "type": "Feature",
           "properties": {
-              "id": 15,
+              "id": 123,
               "name": {
-                "it": "Pedalate amiche – Itinerario",
+                "it": "I laghi di origine glaciale",
                 "en": null
               },
               "description": {
-                "it": "<p>A Modena, in localit&agrave; Ponte Alto, si imbocca l&rsquo;argine destro del Secchia (cartello &ldquo;via Metastasio&rdquo; - catena) incontrando subito il cippo n&deg; 41. Si inizia a risalire il corso del fiume accompagnati dal susseguirsi regolare e decrescente dei pilastrini in cemento e, giunti in prossimit&agrave; dei Tre Olmi e del cippo n&deg; 19, si ignora sulla destra la sterrata che porta al nuovo ponte in ferro della Barchetta e si tira diritto su fondo ghiaiato. Tra pioppeti e vigne si sottopassa l&rsquo;autostrada e si arriva all&rsquo;inizio dello stradello Cenna, nei pressi della trattoria La Piola. Qui ci riportiamo sull&rsquo;argine maestro mentre pi&ugrave; avanti, superato il Canalazzo di Cittanova (ponticello) il percorso si riavvicina al corso d&rsquo;acqua ai margini di un boschetto dominato da pioppi, salici e ontani che fa parte della Riserva Naturale della Cassa di Espansione del Secchia; poco pi&ugrave; avanti si pu&ograve; osservare sulla destra lo sbarramento in cemento armato, l&rsquo;elemento principale dell&rsquo;articolato sistema realizzato per regolare le piene del fiume. Proseguendo sull&rsquo;argine giungiamo in prossimit&agrave; di Marzaglia dove si sottopassa la linea ferroviaria e la strada statale n&deg; 9 via Emilia. Continuando si costeggia un frantoio e si entra in comune di Formigine (pannello &ldquo;zona tutela ambientale del fiume Secchia&rdquo;). Ancora poche pedalate e siamo all&rsquo;ingresso dell&rsquo;Oasi di Colombarone (zona umida tutelata) riconoscibile per il Centro visite e il capanno di osservazione dell&rsquo;avifauna. Qui si effettua una deviazione sulla pista ciclabile che conduce a Magreta dove si riprende il percorso natura nei pressi del il campo volo per aereomodelli e ci si immette sullo stradello ghiaiato che ci accompagna fino al sottopasso della strada statale n&deg; 467 di Scandiano. Da qui in breve al campo calcio di Borgo Venezia (Sassuolo). Dopo aver scavalcato il torrente Vallurbana su ponticello di legno, si arriva nei pressi di San Michele (sottopassaggio per il centro del paese), da cui in breve alla traversa di Castellarano, che permette di portarsi sul lato opposto del fiume per una visita al centro storico del paese e per un eventuale anello ciclistico sulla pista ciclabile che percorre la sponda reggiana del fiume. Siamo ormai alla fine delle nostre fatiche: proseguendo in riva modenese si supera su ponticello il fosso Pescarolo arrivando infine alla base della Rupe del Pescale.</p>",
+                "it": "<p>Il primo tratto del percorso dal parcheggio del lago Santo porta al lago Turchino tra faggete e tratti aperti, dove si può osservare, in stagione, la Genziana Lutea, in una delle pochissime stazioni di tutto il Parco del Frignano. Anche la spettacolare conca glaciale del Turchino, raggiungibile dopo ripida salita, ospita diverse e variegate fioriture di essenze d’alta quota. Da qui al lago Torbido, adagiato ai piedi del monte Rondinaio, e poi, dopo aver superato l’ampio dislivello che porta sul crinale, con successiva vista sull’imponente catena dei monti Giovo-Rondinaio, si giunge al lago Baccio, anch’esso di origine glaciale, la cui formazione è costituita da uno sbarramento di accumulo di materiale morenico, che presenta, sul lato meridionale, una ricca vegetazione palustre. Da qui si percorre l’ultima parte del percorso raggiungendo il lago Santo Modenese, posto ai piedi del complesso Giovo-Rondinaio e circondato da una lussureggiante faggeta, meta turistica molto frequentata per la bellezza del paesaggio e la comodità d’accesso.</p>",
                 "en": null
               },
               "excerpt": {
                 "it": ""
               },
               "slug": "sentieri-numerati",
-              "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg",
+              "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/08/737-9-La-cresta-dei-Paitini-scaled-1024x576.jpg",
               "taxonomy": {
                 "activity": [
                 {
@@ -6528,17 +6528,17 @@
         {
           "type": "Feature",
           "properties": {
-              "id": 16,
+              "id": 124,
               "name": {
-                "it": "Pedalate amiche",
+                "it": "Ai Campi di Annibale",
                 "en": null
               },
               "description": {
-                "it": "<p>A Modena, in localit&agrave; Ponte Alto, si imbocca l&rsquo;argine destro del Secchia (cartello)</p>",
+                "it": "<p>Un percorso facile e adatto a tutti, con diversi spunti d’interesse e vedute panoramiche sull’alto Appennino. Dopo aver percorso interamente la comoda passeggiata ai bordi del lago Santo fino al rifugio Giovo, si può visitare una piccola chiesa intitolata alla Madonna del Lago, prima di imboccare la salita all’interno di una bella faggeta, lungo la quale si può visitare, con una piccola digressione, la raffigurazione religiosa del Cristo dell’Alpe, da dove lo sguardo può spaziare sulla valle delle Tagliole. Continuando a salire, dopo alcuni tornanti si esce in una radura che presenta caratteristiche da zona umida e da qui l’ascesa prosegue fino al passo Boccaia, punto panoramico sulla parte occidentale dell’Appennino Modenese e crocevia di diversi sentieri. Poco oltre, i cosiddetti Campi d’Annibale, dove, narra la leggenda, il condottiero cartaginese, durante la sua marcia in Italia, fu costretto ad accamparsi a causa di alte febbri che colpirono i suoi soldati. Oggi i Campi si presentano come una distesa semi-pianeggiante contornata e modellata dai circhi glaciali del monte Giovo, caratterizzata da praterie d’alta quota, vaccinieti di mirtillo nero e faggi isolati, che si chiude, sul lato opposto, sul panoramico passo della Porticciola, dove l’orizzonte spazia sul versante toscano della Garfagnana.</p>",
                 "en": null
               },
               "slug": "sentieri-numerati",
-              "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg",
+              "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/08/737-8-Vista-verso-la-Rocca-Pianaccia-scaled-1024x576.jpg",
               "taxonomy": {
                 "activity": [
                 {
@@ -6578,17 +6578,67 @@
         {
           "type": "Feature",
           "properties": {
-              "id": 17,
+              "id": 117,
               "name": {
-                "it": "Pedalate amiche – Itinerario 11 Percorso Natura Secchia (1)",
+                "it": "Gli antichi borghi e il lago Pratignano",
                 "en": null
               },
               "description": {
-                "it": "<p>A Modena, in localit&agrave; Ponte Alto, si imbocca l&rsquo;argine destro del Secchia (cartello &ldquo;via Metastasio&rdquo; - catena) incontrando subito il cippo n&deg; 41. Si inizia a risalire il corso del fiume accompagnati dal susseguirsi regolare e decrescente dei pilastrini in cemento e, giunti in prossimit&agrave; dei Tre Olmi e del cippo n&deg; 19, si ignora sulla destra la sterrata che porta al nuovo ponte in ferro della Barchetta e si tira diritto su fondo ghiaiato. Tra pioppeti e vigne si sottopassa l&rsquo;autostrada e si arriva all&rsquo;inizio dello stradello Cenna, nei pressi della trattoria La Piola. Qui ci riportiamo sull&rsquo;argine maestro mentre pi&ugrave; avanti, superato il Canalazzo di Cittanova (ponticello) il percorso si riavvicina al corso d&rsquo;acqua ai margini di un boschetto dominato da pioppi, salici e ontani che fa parte della Riserva Naturale della Cassa di Espansione del Secchia; poco pi&ugrave; avanti si pu&ograve; osservare sulla destra lo sbarramento in cemento armato, l&rsquo;elemento principale dell&rsquo;articolato sistema realizzato per regolare le piene del fiume. Proseguendo sull&rsquo;argine giungiamo in prossimit&agrave; di Marzaglia dove si sottopassa la linea ferroviaria e la strada statale n&deg; 9 via Emilia. Continuando si costeggia un frantoio e si entra in comune di Formigine (pannello &ldquo;zona tutela ambientale del fiume Secchia&rdquo;). Ancora poche pedalate e siamo all&rsquo;ingresso dell&rsquo;Oasi di Colombarone (zona umida tutelata) riconoscibile per il Centro visite e il capanno di osservazione dell&rsquo;avifauna. Qui si effettua una deviazione sulla pista ciclabile che conduce a Magreta dove si riprende il percorso natura nei pressi del il campo volo per aereomodelli e ci si immette sullo stradello ghiaiato che ci accompagna fino al sottopasso della strada statale n&deg; 467 di Scandiano. Da qui in breve al campo calcio di Borgo Venezia (Sassuolo). Dopo aver scavalcato il torrente Vallurbana su ponticello di legno, si arriva nei pressi di San Michele (sottopassaggio per il centro del paese), da cui in breve alla traversa di Castellarano, che permette di portarsi sul lato opposto del fiume per una visita al centro storico del paese e per un eventuale anello ciclistico sulla pista ciclabile che percorre la sponda reggiana del fiume. Siamo ormai alla fine delle nostre fatiche: proseguendo in riva modenese si supera su ponticello il fosso Pescarolo arrivando infine alla base della Rupe del Pescale.</p>",
+                "it": "<p>Il percorso parte dai Due Ponti (Fanano), località posta alla confluenza fra i torrenti Fellicarolo e Ospitale. Nel primo tratto, si sviluppa interamente fra boschi misti di carpino nero, roverella e cerro, intervallati da castagni fino a raggiungere il borgo delle Caselle, uno dei maggiori insediamenti rurali montani abbandonato negli anni ’50 del secolo scorso a causa di un importante evento franoso. Dopo le vestigia del borgo, il sentiero si fa più irto per l’avvicinarsi della zona dei cinghi, scoscesa stratificazione geomorfologica che sovrasta la valle del torrente Ospitale. Poi, giunti in quota, in direzione del lago si incontrano zone più rade e vecchi pascoli ricolonizzati dalla vegetazione arborea. Il lago Pratignano, di rilevante pregio naturalistico, è posto a 1.307 metri di altitudine in un’ampia conca di origine tettonica, in un’area circondata da praterie che in autunno assumono la veste migliore per la fioritura della calluna. Sullo specchio d’acqua si osserva l’incessante azione colonizzatrice delle piante palustri che lo hanno progressivamente trasformato nella torbiera più importante dell’Appennino Modenese. Nei dintorni del lago, merita una visita, sul lato ovest, un grande faggio secolare e, in posizione seminascosta sul lato est, la cavità rocciosa detta “Grotta delle fate”. Volendo, ci si può ristorare nell’area pic-nic, prima di intraprendere di nuovo la discesa lungo una cresta con vista sul monte Cimone, toccando poi gli antichi abitati di Casa del Vento e di Monte Luzzo.</p>",
                 "en": null
               },
               "slug": "sentieri-numerati",
-              "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg",
+              "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/08/737-5-Panorama-sui-Lagoni-e-monte-Roccabiasca-scaled-1024x576.jpg",
+              "taxonomy": {
+                "activity": [
+                {
+                  "id": 118,
+                  "created_at": "2021-07-05T16:34:23.000000Z",
+                  "updated_at": "2021-07-19T08:21:01.000000Z",
+                  "name": {
+                    "it": "In bicicletta",
+                    "en": "In bicicletta"
+                  },
+                  "description": {
+                    "en": null
+                  },
+                  "excerpt": {
+                    "en": null
+                  },
+                  "identifier": "cycling",
+                  "stroke_width": "2.5",
+                  "min_visible_zoom": "5",
+                  "min_size_zoom": "19",
+                  "min_size": "1",
+                  "max_size": "4",
+                  "icon_zoom": "5",
+                  "icon_size": "0.1"
+                }
+              ]
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              10.6402587890625,
+              44.08758502824516
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "id": 119,
+              "name": {
+                "it": "Escursione al Libro Aperto",
+                "en": null
+              },
+              "description": {
+                "it": "<p>Percorso ad anello con partenza e arrivo nella località detta I Taburri, sede di un rifugio con ristorante. Nella prima parte il percorso sale verso il crinale appenninico attraversando inizialmente una faggeta che porta alla tondeggiante sommità del monte Serucca, dove si possono ammirare esemplari di faggio contorti dagli elementi atmosferici. Da qui la vista si apre e può spaziare su tutta la vallata del torrente Fellicarolo, dal monte Cimone fino alla Cima Tauffi. Salendo ancora verso il crinale, il bosco lascia spazio alle praterie d’alta quota con ampie distese di mirtillo nero che, nel periodo autunnale, si colorano di un bel rosso intenso. Nell’ultima parte dell’ascesa alla vetta del Libro Aperto, s’incontrano cespugli di rododendro, bella ericacea dalla vistosa fioritura di un rosa intenso che, largamente diffusa sulle Alpi, ha qui la stazione più meridionale conosciuta in Italia. Per la salita alla cima, nel cambio di sentiero, facendo attenzione, si può utilizzare un cavo metallico fissato ad uno sperone roccioso. Il Libro Aperto non delude: un ampio panorama mostra un paesaggio con le tipiche ondulazioni e vallette modellate dagli antichi ghiacciai. Il percorso di discesa è altrettanto bello, toccando il Pizzo delle Stecche, il rifugio autogestito Gran Mogol e i ruderi di Serra Alta di Qua, fino a ritornare al punto di partenza dei Taburri.</p>",
+                "en": null
+              },
+              "slug": "sentieri-numerati",
+              "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/08/737-4-Panorama-sul-Lago-Gemio-Inferiore-scaled-1024x576.jpg",
               "taxonomy": {
                 "activity": [
                 {
@@ -6628,213 +6678,13 @@
         {
           "type": "Feature",
           "properties": {
-              "id": 17,
+              "id": 120,
               "name": {
-                "it": "Pedalate amiche – Itinerario 11 Percorso Natura Secchia (1)",
+                "it": "Tra gli emigranti e la Linea Gotica",
                 "en": null
               },
               "description": {
-                "it": "<p>A Modena, in localit&agrave; Ponte Alto, si imbocca l&rsquo;argine destro del Secchia (cartello &ldquo;via Metastasio&rdquo; - catena) incontrando subito il cippo n&deg; 41. Si inizia a risalire il corso del fiume accompagnati dal susseguirsi regolare e decrescente dei pilastrini in cemento e, giunti in prossimit&agrave; dei Tre Olmi e del cippo n&deg; 19, si ignora sulla destra la sterrata che porta al nuovo ponte in ferro della Barchetta e si tira diritto su fondo ghiaiato. Tra pioppeti e vigne si sottopassa l&rsquo;autostrada e si arriva all&rsquo;inizio dello stradello Cenna, nei pressi della trattoria La Piola. Qui ci riportiamo sull&rsquo;argine maestro mentre pi&ugrave; avanti, superato il Canalazzo di Cittanova (ponticello) il percorso si riavvicina al corso d&rsquo;acqua ai margini di un boschetto dominato da pioppi, salici e ontani che fa parte della Riserva Naturale della Cassa di Espansione del Secchia; poco pi&ugrave; avanti si pu&ograve; osservare sulla destra lo sbarramento in cemento armato, l&rsquo;elemento principale dell&rsquo;articolato sistema realizzato per regolare le piene del fiume. Proseguendo sull&rsquo;argine giungiamo in prossimit&agrave; di Marzaglia dove si sottopassa la linea ferroviaria e la strada statale n&deg; 9 via Emilia. Continuando si costeggia un frantoio e si entra in comune di Formigine (pannello &ldquo;zona tutela ambientale del fiume Secchia&rdquo;). Ancora poche pedalate e siamo all&rsquo;ingresso dell&rsquo;Oasi di Colombarone (zona umida tutelata) riconoscibile per il Centro visite e il capanno di osservazione dell&rsquo;avifauna. Qui si effettua una deviazione sulla pista ciclabile che conduce a Magreta dove si riprende il percorso natura nei pressi del il campo volo per aereomodelli e ci si immette sullo stradello ghiaiato che ci accompagna fino al sottopasso della strada statale n&deg; 467 di Scandiano. Da qui in breve al campo calcio di Borgo Venezia (Sassuolo). Dopo aver scavalcato il torrente Vallurbana su ponticello di legno, si arriva nei pressi di San Michele (sottopassaggio per il centro del paese), da cui in breve alla traversa di Castellarano, che permette di portarsi sul lato opposto del fiume per una visita al centro storico del paese e per un eventuale anello ciclistico sulla pista ciclabile che percorre la sponda reggiana del fiume. Siamo ormai alla fine delle nostre fatiche: proseguendo in riva modenese si supera su ponticello il fosso Pescarolo arrivando infine alla base della Rupe del Pescale.</p>",
-                "en": null
-              },
-              "slug": "sentieri-numerati",
-              "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg",
-              "taxonomy": {
-                "activity": [
-                {
-                  "id": 2,
-                  "created_at": "2021-07-05T16:34:23.000000Z",
-                  "updated_at": "2021-07-19T08:21:01.000000Z",
-                  "name": {
-                    "it": "In bicicletta",
-                    "en": "In bicicletta"
-                  },
-                  "description": {
-                    "en": null
-                  },
-                  "excerpt": {
-                    "en": null
-                  },
-                  "identifier": "cycling",
-                  "stroke_width": "2.5",
-                  "min_visible_zoom": "5",
-                  "min_size_zoom": "19",
-                  "min_size": "1",
-                  "max_size": "4",
-                  "icon_zoom": "5",
-                  "icon_size": "0.1"
-                }
-              ]
-            }
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              10.6402587890625,
-              44.08758502824516
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-              "id": 17,
-              "name": {
-                "it": "Pedalate amiche – Itinerario 11 Percorso Natura Secchia (1)",
-                "en": null
-              },
-              "description": {
-                "it": "<p>A Modena, in localit&agrave; Ponte Alto, si imbocca l&rsquo;argine destro del Secchia (cartello &ldquo;via Metastasio&rdquo; - catena) incontrando subito il cippo n&deg; 41. Si inizia a risalire il corso del fiume accompagnati dal susseguirsi regolare e decrescente dei pilastrini in cemento e, giunti in prossimit&agrave; dei Tre Olmi e del cippo n&deg; 19, si ignora sulla destra la sterrata che porta al nuovo ponte in ferro della Barchetta e si tira diritto su fondo ghiaiato. Tra pioppeti e vigne si sottopassa l&rsquo;autostrada e si arriva all&rsquo;inizio dello stradello Cenna, nei pressi della trattoria La Piola. Qui ci riportiamo sull&rsquo;argine maestro mentre pi&ugrave; avanti, superato il Canalazzo di Cittanova (ponticello) il percorso si riavvicina al corso d&rsquo;acqua ai margini di un boschetto dominato da pioppi, salici e ontani che fa parte della Riserva Naturale della Cassa di Espansione del Secchia; poco pi&ugrave; avanti si pu&ograve; osservare sulla destra lo sbarramento in cemento armato, l&rsquo;elemento principale dell&rsquo;articolato sistema realizzato per regolare le piene del fiume. Proseguendo sull&rsquo;argine giungiamo in prossimit&agrave; di Marzaglia dove si sottopassa la linea ferroviaria e la strada statale n&deg; 9 via Emilia. Continuando si costeggia un frantoio e si entra in comune di Formigine (pannello &ldquo;zona tutela ambientale del fiume Secchia&rdquo;). Ancora poche pedalate e siamo all&rsquo;ingresso dell&rsquo;Oasi di Colombarone (zona umida tutelata) riconoscibile per il Centro visite e il capanno di osservazione dell&rsquo;avifauna. Qui si effettua una deviazione sulla pista ciclabile che conduce a Magreta dove si riprende il percorso natura nei pressi del il campo volo per aereomodelli e ci si immette sullo stradello ghiaiato che ci accompagna fino al sottopasso della strada statale n&deg; 467 di Scandiano. Da qui in breve al campo calcio di Borgo Venezia (Sassuolo). Dopo aver scavalcato il torrente Vallurbana su ponticello di legno, si arriva nei pressi di San Michele (sottopassaggio per il centro del paese), da cui in breve alla traversa di Castellarano, che permette di portarsi sul lato opposto del fiume per una visita al centro storico del paese e per un eventuale anello ciclistico sulla pista ciclabile che percorre la sponda reggiana del fiume. Siamo ormai alla fine delle nostre fatiche: proseguendo in riva modenese si supera su ponticello il fosso Pescarolo arrivando infine alla base della Rupe del Pescale.</p>",
-                "en": null
-              },
-              "slug": "sentieri-numerati",
-              "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg",
-              "taxonomy": {
-                "activity": [
-                {
-                  "id": 2,
-                  "created_at": "2021-07-05T16:34:23.000000Z",
-                  "updated_at": "2021-07-19T08:21:01.000000Z",
-                  "name": {
-                    "it": "In bicicletta",
-                    "en": "In bicicletta"
-                  },
-                  "description": {
-                    "en": null
-                  },
-                  "excerpt": {
-                    "en": null
-                  },
-                  "identifier": "cycling",
-                  "stroke_width": "2.5",
-                  "min_visible_zoom": "5",
-                  "min_size_zoom": "19",
-                  "min_size": "1",
-                  "max_size": "4",
-                  "icon_zoom": "5",
-                  "icon_size": "0.1"
-                }
-              ]
-            }
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              10.6402587890625,
-              44.08758502824516
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-              "id": 17,
-              "name": {
-                "it": "Pedalate amiche – Itinerario 11 Percorso Natura Secchia (1)",
-                "en": null
-              },
-              "description": {
-                "it": "<p>A Modena, in localit&agrave; Ponte Alto, si imbocca l&rsquo;argine destro del Secchia (cartello &ldquo;via Metastasio&rdquo; - catena) incontrando subito il cippo n&deg; 41. Si inizia a risalire il corso del fiume accompagnati dal susseguirsi regolare e decrescente dei pilastrini in cemento e, giunti in prossimit&agrave; dei Tre Olmi e del cippo n&deg; 19, si ignora sulla destra la sterrata che porta al nuovo ponte in ferro della Barchetta e si tira diritto su fondo ghiaiato. Tra pioppeti e vigne si sottopassa l&rsquo;autostrada e si arriva all&rsquo;inizio dello stradello Cenna, nei pressi della trattoria La Piola. Qui ci riportiamo sull&rsquo;argine maestro mentre pi&ugrave; avanti, superato il Canalazzo di Cittanova (ponticello) il percorso si riavvicina al corso d&rsquo;acqua ai margini di un boschetto dominato da pioppi, salici e ontani che fa parte della Riserva Naturale della Cassa di Espansione del Secchia; poco pi&ugrave; avanti si pu&ograve; osservare sulla destra lo sbarramento in cemento armato, l&rsquo;elemento principale dell&rsquo;articolato sistema realizzato per regolare le piene del fiume. Proseguendo sull&rsquo;argine giungiamo in prossimit&agrave; di Marzaglia dove si sottopassa la linea ferroviaria e la strada statale n&deg; 9 via Emilia. Continuando si costeggia un frantoio e si entra in comune di Formigine (pannello &ldquo;zona tutela ambientale del fiume Secchia&rdquo;). Ancora poche pedalate e siamo all&rsquo;ingresso dell&rsquo;Oasi di Colombarone (zona umida tutelata) riconoscibile per il Centro visite e il capanno di osservazione dell&rsquo;avifauna. Qui si effettua una deviazione sulla pista ciclabile che conduce a Magreta dove si riprende il percorso natura nei pressi del il campo volo per aereomodelli e ci si immette sullo stradello ghiaiato che ci accompagna fino al sottopasso della strada statale n&deg; 467 di Scandiano. Da qui in breve al campo calcio di Borgo Venezia (Sassuolo). Dopo aver scavalcato il torrente Vallurbana su ponticello di legno, si arriva nei pressi di San Michele (sottopassaggio per il centro del paese), da cui in breve alla traversa di Castellarano, che permette di portarsi sul lato opposto del fiume per una visita al centro storico del paese e per un eventuale anello ciclistico sulla pista ciclabile che percorre la sponda reggiana del fiume. Siamo ormai alla fine delle nostre fatiche: proseguendo in riva modenese si supera su ponticello il fosso Pescarolo arrivando infine alla base della Rupe del Pescale.</p>",
-                "en": null
-              },
-              "slug": "sentieri-numerati",
-              "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg",
-              "taxonomy": {
-                "activity": [
-                {
-                  "id": 2,
-                  "created_at": "2021-07-05T16:34:23.000000Z",
-                  "updated_at": "2021-07-19T08:21:01.000000Z",
-                  "name": {
-                    "it": "In bicicletta",
-                    "en": "In bicicletta"
-                  },
-                  "description": {
-                    "en": null
-                  },
-                  "excerpt": {
-                    "en": null
-                  },
-                  "identifier": "cycling",
-                  "stroke_width": "2.5",
-                  "min_visible_zoom": "5",
-                  "min_size_zoom": "19",
-                  "min_size": "1",
-                  "max_size": "4",
-                  "icon_zoom": "5",
-                  "icon_size": "0.1"
-                }
-              ]
-            }
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              10.6402587890625,
-              44.08758502824516
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-              "id": 17,
-              "name": {
-                "it": "Pedalate amiche – Itinerario 11 Percorso Natura Secchia (1)",
-                "en": null
-              },
-              "description": {
-                "it": "<p>A Modena, in localit&agrave; Ponte Alto, si imbocca l&rsquo;argine destro del Secchia (cartello &ldquo;via Metastasio&rdquo; - catena) incontrando subito il cippo n&deg; 41. Si inizia a risalire il corso del fiume accompagnati dal susseguirsi regolare e decrescente dei pilastrini in cemento e, giunti in prossimit&agrave; dei Tre Olmi e del cippo n&deg; 19, si ignora sulla destra la sterrata che porta al nuovo ponte in ferro della Barchetta e si tira diritto su fondo ghiaiato. Tra pioppeti e vigne si sottopassa l&rsquo;autostrada e si arriva all&rsquo;inizio dello stradello Cenna, nei pressi della trattoria La Piola. Qui ci riportiamo sull&rsquo;argine maestro mentre pi&ugrave; avanti, superato il Canalazzo di Cittanova (ponticello) il percorso si riavvicina al corso d&rsquo;acqua ai margini di un boschetto dominato da pioppi, salici e ontani che fa parte della Riserva Naturale della Cassa di Espansione del Secchia; poco pi&ugrave; avanti si pu&ograve; osservare sulla destra lo sbarramento in cemento armato, l&rsquo;elemento principale dell&rsquo;articolato sistema realizzato per regolare le piene del fiume. Proseguendo sull&rsquo;argine giungiamo in prossimit&agrave; di Marzaglia dove si sottopassa la linea ferroviaria e la strada statale n&deg; 9 via Emilia. Continuando si costeggia un frantoio e si entra in comune di Formigine (pannello &ldquo;zona tutela ambientale del fiume Secchia&rdquo;). Ancora poche pedalate e siamo all&rsquo;ingresso dell&rsquo;Oasi di Colombarone (zona umida tutelata) riconoscibile per il Centro visite e il capanno di osservazione dell&rsquo;avifauna. Qui si effettua una deviazione sulla pista ciclabile che conduce a Magreta dove si riprende il percorso natura nei pressi del il campo volo per aereomodelli e ci si immette sullo stradello ghiaiato che ci accompagna fino al sottopasso della strada statale n&deg; 467 di Scandiano. Da qui in breve al campo calcio di Borgo Venezia (Sassuolo). Dopo aver scavalcato il torrente Vallurbana su ponticello di legno, si arriva nei pressi di San Michele (sottopassaggio per il centro del paese), da cui in breve alla traversa di Castellarano, che permette di portarsi sul lato opposto del fiume per una visita al centro storico del paese e per un eventuale anello ciclistico sulla pista ciclabile che percorre la sponda reggiana del fiume. Siamo ormai alla fine delle nostre fatiche: proseguendo in riva modenese si supera su ponticello il fosso Pescarolo arrivando infine alla base della Rupe del Pescale.</p>",
-                "en": null
-              },
-              "slug": "sentieri-numerati",
-              "image": "https://caiparma.wp.webmapp.it/wp-content/uploads/2020/09/20160911_MTB_AVP_Tappa2-22-scaled-1024x768.jpg",
-              "taxonomy": {
-                "activity": [
-                {
-                  "id": 2,
-                  "created_at": "2021-07-05T16:34:23.000000Z",
-                  "updated_at": "2021-07-19T08:21:01.000000Z",
-                  "name": {
-                    "it": "In bicicletta",
-                    "en": "In bicicletta"
-                  },
-                  "description": {
-                    "en": null
-                  },
-                  "excerpt": {
-                    "en": null
-                  },
-                  "identifier": "cycling",
-                  "stroke_width": "2.5",
-                  "min_visible_zoom": "5",
-                  "min_size_zoom": "19",
-                  "min_size": "1",
-                  "max_size": "4",
-                  "icon_zoom": "5",
-                  "icon_size": "0.1"
-                }
-              ]
-            }
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              10.6402587890625,
-              44.08758502824516
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-              "id": 17,
-              "name": {
-                "it": "Pedalate amiche – Itinerario 11 Percorso Natura Secchia (1)",
-                "en": null
-              },
-              "description": {
-                "it": "<p>A Modena, in localit&agrave; Ponte Alto, si imbocca l&rsquo;argine destro del Secchia (cartello &ldquo;via Metastasio&rdquo; - catena) incontrando subito il cippo n&deg; 41. Si inizia a risalire il corso del fiume accompagnati dal susseguirsi regolare e decrescente dei pilastrini in cemento e, giunti in prossimit&agrave; dei Tre Olmi e del cippo n&deg; 19, si ignora sulla destra la sterrata che porta al nuovo ponte in ferro della Barchetta e si tira diritto su fondo ghiaiato. Tra pioppeti e vigne si sottopassa l&rsquo;autostrada e si arriva all&rsquo;inizio dello stradello Cenna, nei pressi della trattoria La Piola. Qui ci riportiamo sull&rsquo;argine maestro mentre pi&ugrave; avanti, superato il Canalazzo di Cittanova (ponticello) il percorso si riavvicina al corso d&rsquo;acqua ai margini di un boschetto dominato da pioppi, salici e ontani che fa parte della Riserva Naturale della Cassa di Espansione del Secchia; poco pi&ugrave; avanti si pu&ograve; osservare sulla destra lo sbarramento in cemento armato, l&rsquo;elemento principale dell&rsquo;articolato sistema realizzato per regolare le piene del fiume. Proseguendo sull&rsquo;argine giungiamo in prossimit&agrave; di Marzaglia dove si sottopassa la linea ferroviaria e la strada statale n&deg; 9 via Emilia. Continuando si costeggia un frantoio e si entra in comune di Formigine (pannello &ldquo;zona tutela ambientale del fiume Secchia&rdquo;). Ancora poche pedalate e siamo all&rsquo;ingresso dell&rsquo;Oasi di Colombarone (zona umida tutelata) riconoscibile per il Centro visite e il capanno di osservazione dell&rsquo;avifauna. Qui si effettua una deviazione sulla pista ciclabile che conduce a Magreta dove si riprende il percorso natura nei pressi del il campo volo per aereomodelli e ci si immette sullo stradello ghiaiato che ci accompagna fino al sottopasso della strada statale n&deg; 467 di Scandiano. Da qui in breve al campo calcio di Borgo Venezia (Sassuolo). Dopo aver scavalcato il torrente Vallurbana su ponticello di legno, si arriva nei pressi di San Michele (sottopassaggio per il centro del paese), da cui in breve alla traversa di Castellarano, che permette di portarsi sul lato opposto del fiume per una visita al centro storico del paese e per un eventuale anello ciclistico sulla pista ciclabile che percorre la sponda reggiana del fiume. Siamo ormai alla fine delle nostre fatiche: proseguendo in riva modenese si supera su ponticello il fosso Pescarolo arrivando infine alla base della Rupe del Pescale.</p>",
+                "it": "<p>L’itinerario parte e ritorna a Trignano, frazione del comune di Fanano. Nella prima parte esso attraversa un bosco misto e un castagneto da frutto, raggiungendo, dopo alcuni tornanti in salita, il crinale dei monti della Riva, parte dell’ultimo arretramento della Linea Gotica, fortificato dai tedeschi nell’inverno 1944-45. In particolare il Pizzo di Campiano, punto strategico di osservazione e controllo del dirimpettaio monte Belvedere, caposaldo della Gotica in questo settore. Lungo il crinale della Riva si possono ancora osservare i resti dei manufatti difensivi tedeschi (piazzole da mortaio, buche per mitragliatrici, camminamenti, ricoveri per le truppe e buche per i fucilieri) rivolti verso sud-est, da dove giunse l’offensiva americana che conquistò queste cime nella notte del 18 febbraio 1945. Fatti storici ricordati da un monumento ai caduti e da cartelloni informativi posti in loco. Il rientro avviene scendendo verso Ca’ Magnani. Nel paesino di Trignano è da visitare il Museo dei Monti della Riva, ospitato nelle ex-scuole e dedicato in parte alla Linea Gotica e in parte alla storia di Felice Pedroni, emigrante di queste terre, cercatore d’oro che nel 1902 scoprì un ricco filone aurifero in Alaska ponendo le basi per la fondazione della città di Fairbanks. Ancora visibile, in paese, la sua casa natale.</p>",
                 "en": null
               },
               "slug": "sentieri-numerati",
