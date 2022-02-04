@@ -1,18 +1,7 @@
 @props(['track'])
-@php
-    if (!$track->featureImage) {
-        if ($track->id == '123') {
-            $featured_image = asset('images/track-123.JPG');
-        } else {
-            $featured_image = asset('images/banner-1.png');
-        }
-    } else {
-        $featured_image = $track->featureImage->thumbnail('1440x500');
-    }
-@endphp
 <div class="relative">
     <div style="width: 100%; height: 457px" class="flex overflow-x-hidden relative">
-          <x-track.banner-slide source="{{$featured_image}}"></x-track.banner-slide>
+          <x-track.banner-slide source="{{get_feature_image_thumbnail($track,'1440x500')}}"></x-track.banner-slide>
           <div class="absolute bottom-10 w-full">
               <div class="max-w-screen-xl m-auto px-4">
                   <div class="py-4 px-8 bg-white bg-opacity-70 rounded-xl max-w-3xl w-max">

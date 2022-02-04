@@ -2,9 +2,9 @@
     <x-header/>
     <main class="">
         <x-taxonomy.banner :taxonomy="$taxonomy"></x-banner>
-        <x-taxonomy.content :taxonomy="$taxonomy"></x-content>
-            @if ($taxonomy->properties->taxonomy == 'where')
-                <x-cta-map :link="$taxonomy->properties->id"/>
+        <x-taxonomy.content :taxonomy="$taxonomy" :tracks="$relatedTracks"></x-content>
+            @if ($taxonomy->getTable() == 'taxonomy_wheres')
+                <x-cta-map :link="$taxonomy->id"/>
             @endif
     </main>
     <x-footer/>

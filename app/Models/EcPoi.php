@@ -18,6 +18,10 @@ class EcPoi extends Model
         return $this->belongsToMany(EcMedia::class);
     }
 
+    public function author(): BelongsTo {
+        return $this->belongsTo("\App\Models\User", "user_id", "id");
+    }
+
     public function ecTracks(): BelongsToMany {
         return $this->belongsToMany(EcTrack::class);
     }

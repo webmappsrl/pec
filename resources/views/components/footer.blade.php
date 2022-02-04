@@ -6,8 +6,8 @@
             <div class="col-span-1 text-right">
                 <div class="grid-flow-col inline-grid gap-6 h-full items-center">
                     <p class="m-0 uppercase">Seguici su</p>  
-                    <a href="#"><img src="{{asset('images/f.png')}}" alt="facebook logo" class=""></a>
-                    <a href="#"><img src="{{asset('images/y.png')}}" alt="youtube logo" class=""></a>
+                    <a href="https://www.facebook.com/parchiemiliacentrale/" target="_blank"><img src="{{asset('images/f.png')}}" alt="facebook logo" class=""></a>
+                    <a href="https://www.youtube.com/channel/UCqRVZPA9NFEPBHMKvFGZmEQ" target="_blank"><img src="{{asset('images/y.png')}}" alt="youtube logo" class=""></a>
                 </div>
             </div>
         </div>
@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div class="col-span-1 flex justify-end">
-                <img src="{{asset('images/loghi-footer.png')}}" alt="loghi collaborazione footer"  class="">
+                <img src="{{asset('images/loghi-footer-1.png')}}" alt="loghi collaborazione footer"  class="">
             </div>
         </div>
     </div>

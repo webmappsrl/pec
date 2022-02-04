@@ -3,6 +3,13 @@
     use App\Models\EcPoi;
 
     $poi = EcPoi::find($poi->id);
+    $res = DB::select(DB::raw('SELECT ST_ASGeoJSON(geometry) as geojson from ec_pois where id='.$poi->id.'')); 
+    $geometry = $res[0]->geojson;
+    $geometry = json_decode($geometry);
+    $geometry = $geometry->coordinates;
+    $new_array = [$geometry[1],$geometry[0]];
+    $geometry = json_encode($new_array);
+
     if (!$poi->featureImage) {
         if ($poi->id == '32' ) {
             $featured_image = asset('images/32.jpg');
@@ -26,7 +33,7 @@
     }
 @endphp
 <div x-data="{ open: false }">
-    <div class="px-8 py-4 grid grid-cols-3 gap-4 items-center hover:bg-gray-100 cursor-pointer" @click="open = true;document.body.style.overflowY = 'hidden'">
+    <div id="poi-{{$poi->id}}" class="px-8 py-4 grid grid-cols-3 gap-4 items-center hover:bg-gray-100 cursor-pointer" @click="open = true;document.body.style.overflowY = 'hidden'">
         <div class="bg-cover bg-center bg-no-repeat rounded-lg col-span-1" style="width:120px;height:120px;background-image:url('{{$featured_image}}')">
         </div>
         <div class="col-span-2 pl-4">

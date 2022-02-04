@@ -14,6 +14,14 @@ class EcTrack extends Model
 
     public $translatable = ['name', 'description', 'excerpt', 'difficulty'];
 
+    public function author() {
+        return $this->belongsTo("\App\Models\User", "user_id", "id");
+    }
+
+    public function user() {
+        return $this->belongsTo(User::class);
+    }
+    
     public function ecMedia(): BelongsToMany {
         return $this->belongsToMany(EcMedia::class);
     }
@@ -37,5 +45,13 @@ class EcTrack extends Model
 
     public function featureImage(): BelongsTo {
         return $this->belongsTo(EcMedia::class, 'feature_image');
+    }
+
+    public function scopeFilter($query, array $filters) {
+        $query->when($filters['search'] ?? false, function ($query, $search){
+            $query
+                ->where('name','ilike', '%' . $search . '%')
+                ->orWhere('description','ilike', '%' . $search . '%');
+        });
     }
 }

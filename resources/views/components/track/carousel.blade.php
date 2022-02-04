@@ -3,28 +3,24 @@
 
 <div id="carousel" class="py-4">
         <div x-data="{swiper: null}"
-        x-init="swiper = new Swiper($refs.container, {
+            x-init="swiper = new Swiper($refs.container, {
             loop: true,
             slidesPerView: 1,
             spaceBetween: 0,
         
             breakpoints: {
-            640: {
-                slidesPerView: 2,
-                spaceBetween: 0,
-            },
-            768: {
-                slidesPerView: 2,
-                spaceBetween: 0,
-            },
-            1024: {
-                slidesPerView: 3,
-                spaceBetween: 0,
-            },
-            1424: {
-                slidesPerView: 4,
-                spaceBetween: 0,
-            },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 0,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 0,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 0,
+                }
             },
         })"
         class="relative w-full mx-auto flex flex-row"

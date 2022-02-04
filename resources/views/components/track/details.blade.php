@@ -17,7 +17,7 @@
     if ($track->ele_max)
         $details['Quota massima'] = $track->ele_max.'m';
 @endphp
-<div x-data="{ tab: window.location.hash ? window.location.hash.substring(1) : 'details' }" id="tab_wrapper">
+<div x-data="tabApp()" @flash.window="tab = $event.detail" id="tab_wrapper">
     <!-- The tabs navigation -->
     <nav class="map-detail-tab grid grid-cols-2">
         <a class="{{$classes}}" :class="{ 'active': tab === 'details' }" @click.prevent="tab = 'details'; window.location.hash = 'details'" href="#">Dettagli tecnici</a>
@@ -40,7 +40,7 @@
             </div>
         @endif
      </div>
-     <div x-show="tab === 'relatedpois'" class="overflow-y-auto" style="max-height: 615px;">
+     <div x-show="tab === 'relatedpois'" class="overflow-y-auto poi-list" style="max-height: 615px;">
          @foreach ($track->ecPois as $poi)
             <x-track.poi :poi="$poi"/>
          @endforeach

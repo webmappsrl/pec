@@ -5,12 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Spatie\Translatable\HasTranslations;
 
-class TaxonomyActivity extends Model
-{
+class TaxonomyTheme extends Model {
     use HasFactory, HasTranslations;
 
     public $translatable = ['name', 'description', 'excerpt'];
@@ -46,4 +43,5 @@ class TaxonomyActivity extends Model
     public function featureImage(): BelongsTo {
         return $this->belongsTo(EcMedia::class, 'feature_image');
     }
+
 }

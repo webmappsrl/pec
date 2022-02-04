@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\EcTrack;
+use Illuminate\Http\Request;
+
+class searchController extends Controller
+{
+    public function index(){
+
+        $tracks = EcTrack::whereHas('author', function ($query) {
+            return $query->where('user_id', '=', config('geohub.geohub_app_user'));
+        });
+        
+        return view('search', [
+            'tracks' => $tracks->filter(request(['search']))->get()
+        ]);
+    }
+}
