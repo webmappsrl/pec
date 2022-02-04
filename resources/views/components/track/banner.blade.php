@@ -6,9 +6,14 @@
               <div class="max-w-screen-xl m-auto px-4">
                   <div class="py-4 px-8 bg-white bg-opacity-70 rounded-xl max-w-3xl w-max">
                     @if ($track->taxonomyWheres->count() > 0 )
+                        <div class="py-2">
                         @foreach ($track->taxonomyWheres->pluck('name') as $name)
-                            <div class="py-2 inline-flex items-center text-primary">{{ $loop->iteration > 1 ? ', ' : '' }}{{$name}}</div>
+                            <div 
+                            class="inline-flex items-center text-primary"
+                            >{{$name}}{{ ($track->taxonomyWheres->count() > 1 && !$loop->last ) ? ', ' : '' }}
+                            </div>
                         @endforeach
+                        </div>
                     @endif
                       <h1 class="text-primary text-4xl font-extrabold">{{$track->name}}</h1>
                       @if ($track->taxonomyActivities->count() > 0 )
