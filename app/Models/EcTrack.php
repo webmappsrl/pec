@@ -49,9 +49,14 @@ class EcTrack extends Model
 
     public function scopeFilter($query, array $filters) {
         $query->when($filters['search'] ?? false, function ($query, $search){
-            $query
-                ->where('name','ilike', '%' . $search . '%')
-                ->orWhere('description','ilike', '%' . $search . '%');
+
+            // split on 1+ whitespace & ignore empty (eg. trailing space)
+            $searchValues = preg_split('/\s+/', $search, -1, PREG_SPLIT_NO_EMPTY); 
+            foreach ($searchValues as $value) {
+                $query
+                    ->where('name','ilike', '%' . $value . '%')
+                    ->orWhere('description','ilike', '%' . $value . '%');
+            }
         });
     }
 }
