@@ -21,11 +21,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $tracks = EcTrack::whereHas('author', function ($query) {
-        return $query->where('user_id', '=', config('geohub.geohub_app_user'));
+        return $query->where('user_id', '=', config('geohub.app_user'));
     })->inRandomOrder()->limit(5)->get();
     
     $pois = EcPoi::whereHas('author', function ($query) {
-        return $query->where('user_id', '=', config('geohub.geohub_app_user'));
+        return $query->where('user_id', '=', config('geohub.app_user'));
     })->inRandomOrder()->limit(5)->get();
 
     // Taxonomy where ids: I parchi
@@ -40,27 +40,31 @@ Route::get('/', function () {
 
 Route::get('taxonomy/{taxonomy:identifier}',function (string $taxonomy) {
     try {
-        $tracks = EcTrack::whereHas('author', function ($query) {
-            return $query->where('user_id', '=', config('geohub.geohub_app_user'));
-        })->whereRelation(
-            'taxonomyWheres', 'identifier', '=',$taxonomy
-        )->get();
+        $taxonomyType = '';
 
         if ( $taxonomy == 'hiking' || $taxonomy == 'cycling' ) {
-            $taxonomy = TaxonomyActivity::where('identifier',$taxonomy)->firstOrFail();
+            $taxonomyObj = TaxonomyActivity::where('identifier',$taxonomy)->firstOrFail();
+            $taxonomyType = 'TaxonomyActivities';
         } elseif ( in_array($taxonomy,array('cycle-route','recommended-route','ridge-route','historical-itinerary','route-in-stages'))) {
-            $taxonomy = TaxonomyTheme::where('identifier',$taxonomy)->firstOrFail();
+            $taxonomyObj = TaxonomyTheme::where('identifier',$taxonomy)->firstOrFail();
+            $taxonomyType = 'TaxonomyThemes';
         } else {
-            $taxonomy = TaxonomyWhere::where('identifier',$taxonomy)->firstOrFail();
+            $taxonomyObj = TaxonomyWhere::where('identifier',$taxonomy)->firstOrFail();
+            $taxonomyType = 'taxonomyWheres';
         }
-        
+
+        $tracks = EcTrack::whereHas('author', function ($query) {
+            return $query->where('user_id', '=', config('geohub.app_user'));
+        })->whereRelation(
+            $taxonomyType, 'identifier', '=',$taxonomy
+        )->get();
     }
     catch (Exception $e) {
         abort(404);
     }
     // $taxonomy = json_decode($file);
     return view('taxonomy', [
-        'taxonomy' => $taxonomy,
+        'taxonomy' => $taxonomyObj,
         'relatedTracks' => $tracks
     ]);
 });

@@ -7,11 +7,13 @@
                   <div class="py-4 px-8 bg-white bg-opacity-70 rounded-xl max-w-3xl w-max">
                     @if ($track->taxonomyWheres->count() > 0 )
                         <div class="py-2">
-                        @foreach ($track->taxonomyWheres->pluck('name') as $name)
+                        @foreach ($track->taxonomyWheres as $tax)
+                        @if (!in_array($tax->identifier,explode(',',config('geohub.exclude_wheres'))))
                             <div 
                             class="inline-flex items-center text-primary"
-                            >{{$name}}{{ ($track->taxonomyWheres->count() > 1 && !$loop->last ) ? ', ' : '' }}
+                            >{{$tax->name}}{{ ($track->taxonomyWheres->count() > 1 && !$loop->last ) ? ', ' : '' }}
                             </div>
+                        @endif
                         @endforeach
                         </div>
                     @endif

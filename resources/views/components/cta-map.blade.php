@@ -1,4 +1,4 @@
-@props(['link'])
+@props(['link', 'tracks'])
 @php
     if ($link) {
         $linkto = "https://3.app.geohub.webmapp.it/$link";
@@ -6,6 +6,13 @@
     else {
         $linkto = 'https://4.app.geohub.webmapp.it';
     }
+
+    // foreach ($tracks as $track) {
+    //     $res = DB::select(DB::raw('SELECT ST_ASGeoJSON(ST_Centroid(geometry)) as geojson from ec_tracks where id='.$track->id.'')); 
+    //     $geometry = $res[0]->geojson;
+    //     $geometry = json_decode($geometry);
+    //     // dd($geometry);
+    // }
 @endphp
 <div class="max-w-screen-xl m-auto pt-0 pb-8 md:py-12 px-0 md:px-4">
     <div class="flex items-end mx-auto bg-cover bg-center bg-no-repeat" style="width: 100%;height: 520px; background-image:url('{{asset('images/cta-map.jpeg')}}');">

@@ -114,3 +114,22 @@ p,div {
 .leaflet-pane.leaflet-marker-pane img {
     border-radius: 50%;
 }
+.explore-grid-item-overlay:before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.2;
+    border-radius: 0.75rem;
+}
+
+.taxonomyLeafletMap .leaflet-popup-close-button {
+    display: none;
+}
+.taxonomyLeafletMap .leaflet-popup  {
+    bottom: -44px!important;
+}
