@@ -28,7 +28,7 @@ if (!function_exists('getIconSVGhtml')) {
     function getIconSVGhtml($identifier) {
         $output = '';
         if ($identifier == 'hiking') {
-            $output =asset('images/hiking-15.svg');
+            $output = file_get_contents(asset('images/hiking-15.svg'));
         }
         return $output;
     }
