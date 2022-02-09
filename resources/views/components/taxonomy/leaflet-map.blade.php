@@ -15,7 +15,7 @@
         $activitiesString = '';
         foreach ($track->taxonomyActivities as $activity){
             $activitiesString .= getIconSVGhtml($activity->identifier);
-            $activitiesString .= $activity->name;
+            $activitiesString .= '<p>'.$activity->name.'</p>';
         }
                     
         $track_collection[$track->id]['geometry'] = [$geometry->coordinates[1],$geometry->coordinates[0]];
@@ -49,16 +49,15 @@ crossorigin=""></script>
     var trackMarkers = L.featureGroup().addTo(map);
 
     for (const [poiID, value] of Object.entries(track_collection)) {
-        var greenIcon = L.icon({
-            radius: 200,
+        var pecIcon = L.icon({
             className: 'poi-'+poiID,
             iconUrl: value.image,
             iconSize:     [38, 38], // size of the icon
             iconAnchor:   [22, 38], // point of the icon which will correspond to marker's location
             popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
         });
-       marker = L.marker(value.geometry, {icon: greenIcon,id:'poi-'+poiID});
-       marker.bindPopup("<h4>"+value.title+"</h4><br>"+value.activity+"<br><a href='/track/"+poiID+"'><div class='inline-flex items-center'>Dettaglio itinerario <svg width='20' height='20' fill='currentColor' class='ml-2' viewBox='0 0 16 16'><path fill-rule='evenodd' d='M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z'/></svg></div></a>").openPopup();
+       marker = L.marker(value.geometry, {icon: pecIcon,id:'poi-'+poiID});
+       marker.bindPopup("<h4>"+value.title+"</h4><div class='inline-flex items-center text-sm'>"+value.activity+"</div><br><a href='/track/"+poiID+"'><div style='padding:11px;justify-content:center; ' class='inline-flex uppercase justify-center bg-primary p-2 w-full text-white rounded-lg font-bold text-sm'>Dettaglio itinerario <svg width='20' height='20' fill='currentColor' class='ml-2' viewBox='0 0 16 16'><path fill-rule='evenodd' d='M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z'/></svg></div></a>").openPopup();
        trackMarkers.addLayer(marker);
        trackMarkers.addTo(map);
     }

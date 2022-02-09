@@ -28,7 +28,12 @@ if (!function_exists('getIconSVGhtml')) {
     function getIconSVGhtml($identifier) {
         $output = '';
         if ($identifier == 'hiking') {
-            $output = file_get_contents(asset('images/hiking-15.svg'));
+            $output = file_get_contents(base_path().'/resources/SVG/hiking-15.svg');
+            $output = str_replace('<svg','<svg class="icon-2lg bg-light-grey rounded-full p-1 mr-2"',$output); 
+        }
+        if ($identifier == 'cycling') {
+            $output = file_get_contents(base_path().'/resources/SVG/cyc_bici.svg');
+            $output = str_replace('<svg','<svg class="icon-2lg bg-light-grey rounded-full p-1 mr-2"',$output); 
         }
         return $output;
     }

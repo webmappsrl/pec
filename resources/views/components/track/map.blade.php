@@ -50,7 +50,6 @@ crossorigin=""></script>
             iconUrl: value.image,
             iconSize:     [38, 38], // size of the icon
             iconAnchor:   [22, 38], // point of the icon which will correspond to marker's location
-            popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
         });
         L.marker(JSON.parse(value.geometry), {icon: greenIcon,id:'poi-'+poiID}).addTo(map).on('click', openmodal)
     }
