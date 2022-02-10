@@ -26,7 +26,7 @@ Route::get('/', function () {
     
     $pois = EcPoi::whereHas('author', function ($query) {
         return $query->where('user_id', '=', config('geohub.app_user'));
-    })->inRandomOrder()->limit(5)->get();
+    })->inRandomOrder()->has('ecTracks')->limit(5)->get();
 
     // Taxonomy where ids: I parchi
     $taxonomyWhere = TaxonomyWhere::find([13221,13220,13219,13217,13216,13215,13214,13213]);

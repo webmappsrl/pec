@@ -1,5 +1,8 @@
+@php
+    $track = $feature->ecTracks;
+@endphp
 <div class="swiper-slide p-8 md:p-2">
-    <a class="text-lg font-bold inline-flex items-center" href="/track/{{$feature->id}}">
+    <a class="text-lg font-bold inline-flex items-center" href="/track/{{$track[0]->id}}?poiid={{$feature->id}}#relatedpois">
     <div class="flex flex-col rounded-lg shadow-md overflow-hidden duration-300 hover:shadow-lg">
         <div class="flex-shrink-0">
             <img class="h-48 w-full object-cover" src="{{get_feature_image_thumbnail($feature,'1440x500')}}" alt="">

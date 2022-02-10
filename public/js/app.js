@@ -2060,6 +2060,8 @@ module.exports = {
   \*****************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.tabApp = function () {
@@ -2084,7 +2086,33 @@ $(document).ready(function () {
       var markerr = $('.' + $(this).attr('id'));
       markerr.css("box-shadow", "none");
     });
-  });
+  }); // if get parameters exists open success registration alert
+
+  var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+      sParameterName = sURLVariables[i].split('=');
+
+      if (sParameterName[0] === sParam) {
+        return _typeof(sParameterName[1]) === undefined ? true : decodeURIComponent(sParameterName[1]);
+      }
+    }
+
+    return false;
+  };
+
+  var poiID = getUrlParameter('poiid'); // if (window.location.hash.substring(1)) {
+  //     var mapSection = jQuery('.'+window.location.hash.substring(1));
+  //     mapSection[0].scrollIntoView()
+  // }
+
+  if (poiID) {
+    $('#poi-' + poiID).click();
+  }
 });
 
 /***/ }),

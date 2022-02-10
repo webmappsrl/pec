@@ -1,10 +1,3 @@
-@php
-    // $json_tracks = json_decode(file_get_contents($path = resource_path("jsons/tracks.geojson"))); 
-    // $tracks = $json_tracks->features;
-    
-    // $json_explore = json_decode(file_get_contents($path = resource_path("jsons/where.geojson"))); 
-    // $explore = $json_explore->features;
-@endphp
 <x-siteLayout>
     <x-header/>
     <main class="">
