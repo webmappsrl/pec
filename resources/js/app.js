@@ -10,11 +10,13 @@ window.flash = message => window.dispatchEvent( new CustomEvent('flash', {detail
 
 function poiAddHighlight(e){
     var markerr = $('.'+$(this).attr('id'));
-    markerr.css("box-shadow","0px 0px 10px 3px red");
+    markerr.addClass('poiMarkerWithHighlight');
+    // markerr.css("box-shadow","0px 0px 10px 3px red");
 }
 function poiRemoveHighlight(e){
     var markerr = $('.'+$(this).attr('id'));
-    markerr.css("box-shadow","none");
+    markerr.removeClass('poiMarkerWithHighlight');
+    // markerr.css("box-shadow","none");
 }
 
 $(document).ready(function () {
@@ -22,6 +24,12 @@ $(document).ready(function () {
     jQuery('.poi-list .grid').each(function(index) {
         $(this).on("mouseover", poiAddHighlight );
         $(this).on("mouseout", poiRemoveHighlight );
+    });
+    
+    jQuery('.closePOIpan').each(function(index) {
+        $(this).on("click", function(){
+            $('.poiMarkerWithHighlight').removeClass('poiMarkerWithHighlight');
+        });
     });
 
     // if get parameters exists open success registration alert

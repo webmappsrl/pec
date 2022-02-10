@@ -130,6 +130,9 @@ p,div {
 .taxonomyLeafletMap .leaflet-popup-close-button {
     display: none;
 }
-.poiLeafletMap img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive {
+.poiLeafletMap img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive:not(.endstart) {
     border: 2px solid white;
+}
+.poiMarkerWithHighlight {
+    box-shadow:0px 0px 10px 3px red;
 }

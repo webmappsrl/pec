@@ -39,3 +39,28 @@ if (!function_exists('getIconSVGhtml')) {
     }
 }
 
+if (!function_exists('computeDistance')) {
+        /**
+     * Computes the distance between two coordinates.
+     *
+     * Implementation based on reverse engineering of
+     * <code>google.maps.geometry.spherical.computeDistanceBetween()</code>.
+     *
+     * @param float $lat1 Latitude from the first point.
+     * @param float $lng1 Longitude from the first point.
+     * @param float $lat2 Latitude from the second point.
+     * @param float $lng2 Longitude from the second point.
+     * @param float $radius (optional) Radius in meters.
+     *
+     * @return float Distance in meters.
+     */
+    function computeDistance($lat1, $lng1, $lat2, $lng2, $radius = 6378137)
+    {
+        static $x = M_PI / 180;
+        $lat1 *= $x; $lng1 *= $x;
+        $lat2 *= $x; $lng2 *= $x;
+        $distance = 2 * asin(sqrt(pow(sin(($lat1 - $lat2) / 2), 2) + cos($lat1) * cos($lat2) * pow(sin(($lng1 - $lng2) / 2), 2)));
+
+        return $distance * $radius;
+    }
+}

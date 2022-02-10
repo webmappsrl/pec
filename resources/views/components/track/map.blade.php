@@ -3,6 +3,22 @@
     use App\Models\EcPoi;
 
     $res = DB::select(DB::raw('SELECT ST_ASGeoJSON(geometry) as geojson from ec_tracks where id='.$track->id.'')); 
+    $startPoint = DB::select(DB::raw('SELECT ST_ASGeoJSON(ST_StartPoint(geometry)) as geojson from ec_tracks where id='.$track->id.'')); 
+    $endPoint = DB::select(DB::raw('SELECT ST_ASGeoJSON(ST_EndPoint(geometry)) as geojson from ec_tracks where id='.$track->id.'')); 
+
+    $startPoint_geometry = json_decode($startPoint[0]->geojson)->coordinates;
+    $startPoint_geometry = [$startPoint_geometry[1],$startPoint_geometry[0]];
+    
+    $endPoint_geometry = json_decode($endPoint[0]->geojson)->coordinates;
+    $endPoint_geometry = [$endPoint_geometry[1],$endPoint_geometry[0]];
+
+    $start_end_distance = computeDistance($startPoint_geometry[0],$startPoint_geometry[1],$endPoint_geometry[0],$endPoint_geometry[1]);
+
+    $linearTrip = false;
+    if ($start_end_distance > 100) {
+        $linearTrip = true;
+    }
+
     $geometry = $res[0]->geojson;
     $geometry = json_decode($geometry);
     $geometry = $geometry->coordinates;
@@ -52,6 +68,26 @@ crossorigin=""></script>
             iconAnchor:   [22, 38], // point of the icon which will correspond to marker's location
         });
         L.marker(JSON.parse(value.geometry), {icon: greenIcon,id:'poi-'+poiID}).addTo(map).on('click', openmodal)
+    }
+    
+    var startIcon = L.icon({
+        radius: 200,
+        className: 'poi-start endstart',
+        iconUrl: "{{asset('images/start-point.png')}}",
+        iconSize:     [38, 38], // size of the icon
+        iconAnchor:   [22, 38], // point of the icon which will correspond to marker's location
+    });
+    L.marker(@json($startPoint_geometry), {icon: startIcon}).addTo(map)
+    
+    if ({!! json_encode($linearTrip, JSON_HEX_TAG) !!}) {
+        var endIcon = L.icon({
+        radius: 200,
+        className: 'poi-end endstart',
+        iconUrl: "{{asset('images/end-point.png')}}",
+        iconSize:     [38, 38], // size of the icon
+        iconAnchor:   [22, 38], // point of the icon which will correspond to marker's location
+    });
+    L.marker(@json($endPoint_geometry), {icon: endIcon}).addTo(map)
     }
     function openmodal(e) {
         flash('relatedpois');

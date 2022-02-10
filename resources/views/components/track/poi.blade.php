@@ -1,32 +1,8 @@
 @props(['poi'])
 @php
-    use App\Models\EcPoi;
-
-    $poi = EcPoi::find($poi->id);
-    $res = DB::select(DB::raw('SELECT ST_ASGeoJSON(geometry) as geojson from ec_pois where id='.$poi->id.'')); 
-    $geometry = $res[0]->geojson;
-    $geometry = json_decode($geometry);
-    $geometry = $geometry->coordinates;
-    $new_array = [$geometry[1],$geometry[0]];
-    $geometry = json_encode($new_array);
-
     if (!$poi->featureImage) {
-        if ($poi->id == '32' ) {
-            $featured_image = asset('images/32.jpg');
-            $featured_image_full = asset('images/32.jpg');
-        } elseif ($poi->id == '31') {
-            $featured_image = asset('images/31.jpg');
-            $featured_image_full = asset('images/31.jpg');
-        } elseif ($poi->id == '28') {
-            $featured_image = asset('images/28.JPG');
-            $featured_image_full = asset('images/28.JPG');
-        } elseif ($poi->id == '29') {
-            $featured_image = asset('images/29.jpg');
-            $featured_image_full = asset('images/29.jpg');
-        } else {
-            $featured_image = asset('images/banner-1.png');
-            $featured_image_full = asset('images/banner-1.png');
-        }
+        $featured_image = asset('images/banner-1.png');
+        $featured_image_full = asset('images/banner-1.png');
     } else {
         $featured_image = $poi->featureImage->thumbnail('118x117');
         $featured_image_full = $poi->featureImage->thumbnail('1440x500');
@@ -48,7 +24,7 @@
         </div> 
     </div>
     
-    <div class="fixed top-0 left-0 w-full h-full flex items-center justify-end z-1000" style="display:none;background-color: rgba(0,0,0,.5);" x-show="open">
+    <div class="fixed top-0 left-0 w-full h-full flex items-center justify-end z-1000 closePOIpan" style="display:none;background-color: rgba(0,0,0,.5);" x-show="open">
         <div class="overflow-y-auto text-left bg-white h-screen p-4 md:max-w-xl md:p-12 shadow-xl mx-2 md:mx-0" @click.away="open = false;document.body.style.overflowY = ''"
         x-show="open"
         x-transition:enter="transition ease-out duration-300"
@@ -66,7 +42,7 @@
                     @endforeach
                 </div>
                 <div class="flex justify-end">
-                    <div class="text-primary px-4 py-2 rounded no-outline focus:shadow-outline cursor-pointer" @click="open = false;document.body.style.overflowY = ''"><x-icon-close class="mr-2" width="20" height="20"/></div>
+                    <div class="text-primary px-4 py-2 rounded no-outline focus:shadow-outline cursor-pointer closePOIpan" @click="open = false;document.body.style.overflowY = ''"><x-icon-close class="mr-2" width="20" height="20"/></div>
                 </div>
             </div>
             <h2 class="pb-8">
