@@ -33105,6 +33105,10 @@ p,div {
   display: none;
 }
 
+.poiLeafletMap img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive {
+  border: 2px solid white;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

@@ -2076,16 +2076,20 @@ window.flash = function (message) {
   }));
 };
 
+function poiAddHighlight(e) {
+  var markerr = $('.' + $(this).attr('id'));
+  markerr.css("box-shadow", "0px 0px 10px 3px red");
+}
+
+function poiRemoveHighlight(e) {
+  var markerr = $('.' + $(this).attr('id'));
+  markerr.css("box-shadow", "none");
+}
+
 $(document).ready(function () {
   jQuery('.poi-list .grid').each(function (index) {
-    $(this).on("mouseover", function () {
-      var markerr = $('.' + $(this).attr('id'));
-      markerr.css("box-shadow", "0px 0px 10px 3px red");
-    });
-    $(this).on("mouseout", function () {
-      var markerr = $('.' + $(this).attr('id'));
-      markerr.css("box-shadow", "none");
-    });
+    $(this).on("mouseover", poiAddHighlight);
+    $(this).on("mouseout", poiRemoveHighlight);
   }); // if get parameters exists open success registration alert
 
   var getUrlParameter = function getUrlParameter(sParam) {
@@ -2105,13 +2109,18 @@ $(document).ready(function () {
     return false;
   };
 
-  var poiID = getUrlParameter('poiid'); // if (window.location.hash.substring(1)) {
-  //     var mapSection = jQuery('.'+window.location.hash.substring(1));
-  //     mapSection[0].scrollIntoView()
-  // }
+  var poiID = getUrlParameter('poiid');
+
+  if (window.location.hash.substring(1)) {
+    $('html,body').animate({
+      scrollTop: $('#map').offset().top - 40
+    }, 'slow');
+  }
 
   if (poiID) {
-    $('#poi-' + poiID).click();
+    var poiToOpen = $('#poi-' + poiID);
+    poiToOpen.click();
+    poiToOpen.mouseover();
   }
 });
 

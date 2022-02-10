@@ -32,7 +32,7 @@ crossorigin=""/>
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
 integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
 crossorigin=""></script>
-<div id="map" style="height: 666px;" class="md:rounded-l-lg"></div>
+<div id="map" style="height: 666px;" class="md:rounded-l-lg poiLeafletMap"></div>
 <script>
     var pois_collection = @json($pois_collection);
     var map = L.map('map').setView([43.689740, 10.392279], 12);
