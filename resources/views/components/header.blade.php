@@ -74,15 +74,14 @@
                     <x-slot name="trigger">
                         <x-dropdown-button>Percorsi tematici</x-dropdown-button>
                     </x-slot>
-                    <x-dropdown-item href="/taxonomy/">Escursionismo</x-dropdown-item>
                     <x-dropdown-item href="/taxonomy/recommended-route">Itinerari consogliati nelle Aree Protette</x-dropdown-item>
-                    <x-dropdown-item href="/taxonomy/historical-itinerary">Itinerari Storici</x-dropdown-item>
+                    <x-dropdown-item href="/taxonomy/historical-route">Itinerari Storici</x-dropdown-item>
                     <x-dropdown-item href="/taxonomy/ridge-route">Itinerari in crinale</x-dropdown-item>
                     <x-dropdown-item href="/taxonomy/route-in-stages">Itinerari a tappe</x-dropdown-item>
                     <x-dropdown-item href="/taxonomy/cycle-route">Ciclovie dei Parchi</x-dropdown-item>
                     <x-dropdown-item href="/taxonomy/">Percosi Natura in bicicletta</x-dropdown-item>
                 </x-dropdown>
-                <a href="#mappe" class="text-right inline-grid items-center grid-flow-col cursor-pointer text-primary px-6 py-2 hover:text-white hover:bg-primary"><p class="font-bold">Mappa interattiva</p></a>
+                <a href="https://4.app.geohub.webmapp.it/" target="_blank" class="text-right inline-grid items-center grid-flow-col cursor-pointer text-primary px-6 py-2 hover:text-white hover:bg-primary"><p class="font-bold">Mappa interattiva</p></a>
             </nav>
         </div>
     </div>

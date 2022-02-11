@@ -14,7 +14,7 @@ class searchController extends Controller
         });
         
         return view('search', [
-            'tracks' => $tracks->filter(request(['search']))->get()
+            'tracks' => $tracks->filter(request(['search']))->orderBy('name', 'asc')->get()
         ]);
     }
 }

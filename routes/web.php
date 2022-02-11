@@ -27,9 +27,11 @@ Route::get('/', function () {
     $pois = EcPoi::whereHas('author', function ($query) {
         return $query->where('user_id', '=', config('geohub.app_user'));
     })->inRandomOrder()->has('ecTracks')->limit(5)->get();
-
-    // Taxonomy where ids: I parchi
-    $taxonomyWhere = TaxonomyWhere::find([13221,13220,13219,13217,13216,13215,13214,13213]);
+ 
+    // Taxonomy where ids: I parchi and sort them by the given sequence
+    $taxonomyWhere = TaxonomyWhere::find([13220,13221,13214,13216,13217,13213,13215,13219])->sortBy(function($el){
+        return array_search($el->getKey(), [13220,13221,13214,13216,13217,13213,13215,13219]);
+    });
 
     return view('homepage',[
         'tracks' => $tracks,
@@ -45,7 +47,7 @@ Route::get('taxonomy/{taxonomy:identifier}',function (string $taxonomy) {
         if ( $taxonomy == 'hiking' || $taxonomy == 'cycling' ) {
             $taxonomyObj = TaxonomyActivity::where('identifier',$taxonomy)->firstOrFail();
             $taxonomyType = 'TaxonomyActivities';
-        } elseif ( in_array($taxonomy,array('cycle-route','recommended-route','ridge-route','historical-itinerary','route-in-stages'))) {
+        } elseif ( in_array($taxonomy,array('cycle-route','recommended-route','ridge-route','historical-route','route-in-stages'))) {
             $taxonomyObj = TaxonomyTheme::where('identifier',$taxonomy)->firstOrFail();
             $taxonomyType = 'TaxonomyThemes';
         } else {
@@ -57,7 +59,7 @@ Route::get('taxonomy/{taxonomy:identifier}',function (string $taxonomy) {
             return $query->where('user_id', '=', config('geohub.app_user'));
         })->whereRelation(
             $taxonomyType, 'identifier', '=',$taxonomy
-        )->get();
+        )->orderBy('name', 'asc')->get();
     }
     catch (Exception $e) {
         abort(404);
