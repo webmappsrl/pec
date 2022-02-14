@@ -52,7 +52,7 @@
                 <x-dropdown>
                     
                     <x-slot name="trigger">
-                        <x-dropdown-button>I parchi</x-dropdown-button>
+                        <x-dropdown-button>Aree protette</x-dropdown-button>
                     </x-slot>
                     <x-dropdown-item href="/taxonomy/parco-frignano">Parco del Frignano</x-dropdown-item>
                     <x-dropdown-item href="/taxonomy/parco-sassi-roccamalatina">Parco dei Sassi di Roccamalatina</x-dropdown-item>

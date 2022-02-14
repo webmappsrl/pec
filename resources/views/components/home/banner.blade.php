@@ -20,7 +20,7 @@
             
           <div class="absolute bottom-10 w-full">
               <div class="max-w-screen-xl m-auto px-4">
-                  <h1 class="py-4 px-8 bg-white bg-opacity-70 rounded-xl max-w-3xl w-max text-primary text-4xl font-extrabold">Scopri i percorsi tematici e i luoghi di interesse dei parchi</h1>
+                  <h1 class="py-4 px-8 bg-white bg-opacity-70 rounded-xl max-w-3xl w-max text-primary text-4xl font-extrabold">Scopri i percorsi tematici e i luoghi di interesse delle Aree protette</h1>
               </div>
           </div>
     </div>

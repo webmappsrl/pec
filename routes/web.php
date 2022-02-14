@@ -22,7 +22,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $tracks = EcTrack::whereHas('author', function ($query) {
         return $query->where('user_id', '=', config('geohub.app_user'));
-    })->inRandomOrder()->limit(5)->get();
+    })->whereRelation(
+        'TaxonomyThemes', 'identifier', '=', 'recommended-route'
+    )->inRandomOrder()->limit(5)->get();
     
     $pois = EcPoi::whereHas('author', function ($query) {
         return $query->where('user_id', '=', config('geohub.app_user'));
@@ -59,7 +61,7 @@ Route::get('taxonomy/{taxonomy:identifier}',function (string $taxonomy) {
             return $query->where('user_id', '=', config('geohub.app_user'));
         })->whereRelation(
             $taxonomyType, 'identifier', '=',$taxonomy
-        )->orderBy('name', 'asc')->get();
+        )->orderBy('name', 'asc')->paginate(6);
     }
     catch (Exception $e) {
         abort(404);
@@ -73,7 +75,9 @@ Route::get('taxonomy/{taxonomy:identifier}',function (string $taxonomy) {
 
 Route::get('/track/{id}',function($id){
     
-    $track = EcTrack::find($id);
+    $track = EcTrack::whereHas('author', function ($query) {
+        return $query->where('user_id', '=', config('geohub.app_user'));
+    })->find($id);
 
     if ($track == null) {
         abort(404);

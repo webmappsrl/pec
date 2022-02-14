@@ -1,5 +1,5 @@
 @php
-    $track_total = count($tracks);
+    $track_total = $tracks->total();
 @endphp
 <x-siteLayout>
     <x-header/>
@@ -13,6 +13,7 @@
                     <x-track-card :feature="$feature" />
                 @endforeach
                 </div>
+                {{ $tracks->links() }}
         </div>
     </div>
     </main>

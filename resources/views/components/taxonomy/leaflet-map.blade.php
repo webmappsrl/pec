@@ -31,7 +31,7 @@ crossorigin=""/>
 integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
 crossorigin=""></script>
 
-<div class="max-w-screen-xl m-auto pt-0 pb-8 md:py-12 px-0 md:px-4">
+<div class="max-w-screen-xl m-auto pt-0 pb-8 px-0 md:px-4">
     <div id="map" style="height: 666px;" class="md:rounded-l-lg taxonomyLeafletMap"></div>
 </div>
 

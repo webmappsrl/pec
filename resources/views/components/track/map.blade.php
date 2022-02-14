@@ -48,7 +48,9 @@ crossorigin=""/>
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
 integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
 crossorigin=""></script>
-<div id="map" style="height: 666px;" class="md:rounded-l-lg poiLeafletMap"></div>
+<div id="map" style="height: 666px;" class="md:rounded-l-lg poiLeafletMap">
+    <a target="_blank" href="https://4.app.geohub.webmapp.it/#/map?track={{$track->id}}"><p class="absolute left-6 bottom-6 text-base px-6 py-2 bg-white text-primary font-bold rounded-lg z-1000 hover:shadow-lg duration-150">Apri percoso nella mappa interattiva</p></a>
+</div>
 <script>
     var pois_collection = @json($pois_collection);
     var map = L.map('map').setView([43.689740, 10.392279], 12);
@@ -58,7 +60,8 @@ crossorigin=""></script>
         tileSize: 256,
         scrollWheelZoom: false,
     }).addTo(map);
-    var polyline = L.polyline({{$geometry}}, {color: 'red'}).addTo(map);
+    var polyline = L.polyline({{$geometry}}, {color: 'white',weight:7}).addTo(map);
+    var polyline2 = L.polyline({{$geometry}}, {color: 'red',weight:3}).addTo(map);
     for (const [poiID, value] of Object.entries(pois_collection)) {
         var greenIcon = L.icon({
             radius: 200,
@@ -75,7 +78,7 @@ crossorigin=""></script>
         className: 'poi-start endstart',
         iconUrl: "{{asset('images/start-point.png')}}",
         iconSize:     [38, 38], // size of the icon
-        iconAnchor:   [22, 38], // point of the icon which will correspond to marker's location
+        iconAnchor:   [22, 15], // point of the icon which will correspond to marker's location
     });
     L.marker(@json($startPoint_geometry), {icon: startIcon}).addTo(map)
     
@@ -85,7 +88,7 @@ crossorigin=""></script>
         className: 'poi-end endstart',
         iconUrl: "{{asset('images/end-point.png')}}",
         iconSize:     [38, 38], // size of the icon
-        iconAnchor:   [22, 38], // point of the icon which will correspond to marker's location
+        iconAnchor:   [22, 15], // point of the icon which will correspond to marker's location
     });
     L.marker(@json($endPoint_geometry), {icon: endIcon}).addTo(map)
     }

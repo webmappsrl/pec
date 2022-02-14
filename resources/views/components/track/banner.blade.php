@@ -18,6 +18,9 @@
                         </div>
                     @endif
                       <h1 class="text-primary text-4xl font-extrabold">{{$track->name}}</h1>
+                      @if ($track->from && $track->to)
+                          <p class="pb-2">Da {{$track->from}} a {{$track->to}}</p>
+                      @endif
                       @if ($track->taxonomyActivities->count() > 0 )
                             <div class="py-2 inline-flex items-center">
                               @foreach ($track->taxonomyActivities->pluck('identifier','name') as $name => $identifier)

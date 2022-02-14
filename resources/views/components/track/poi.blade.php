@@ -52,6 +52,37 @@
             <div>
                 {!! $poi->description !!}
             </div>
+            @if ($poi->addr_street || $poi->addr_housenumber || $poi->addr_locality )
+                <div class="py-2 inline-flex items-center">
+                    <x-icon-pin class="mr-2" width="20" height="20"/>
+                    @if ($poi->addr_street)
+                        <p class="">{{$poi->addr_street}}</p>
+                    @endif
+                    @if ($poi->addr_housenumber)
+                        <p>{{$poi->addr_housenumber}}</p>
+                    @endif
+                    @if ($poi->addr_locality)
+                        <p>
+                            @if ($poi->addr_street || $poi->addr_housenumber)
+                            ,         
+                            @endif
+                            {{$poi->addr_locality}}
+                        </p>
+                    @endif
+                </div>
+            @endif
+            @if ($poi->contact_phone)
+            <div class="py-2 inline-flex items-center">
+                    <x-icon-phone class="mr-2" width="20" height="20"/>
+                    <p>{{$poi->contact_phone}}</p>
+                </div>
+            @endif
+            @if ($poi->contact_email)
+                <div class="py-2 inline-flex items-center">
+                    <x-icon-envelop class="mr-2" width="20" height="20"/>
+                    <p>{{$poi->contact_email}}</p>
+                </div>
+            @endif
         </div>
       </div>
 </div>

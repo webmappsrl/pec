@@ -3,7 +3,7 @@
     $gallery = $track->ecMedia;
 @endphp
 <div class="max-w-screen-xl m-auto py-6 px-4">
-    <div class="py-8">
+    <div>
         @if ($track->description)
             <h3>Descrizione</h3>
             {!! $track->description !!}
