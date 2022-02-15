@@ -4,6 +4,10 @@
     $details = array();
     if ($track->distance)
         $details['Lunghezza'] = $track->distance.'km';
+    if ($track->difficulty)
+        $details['Difficoltà'] = $track->difficulty;
+    if ($track->duration_forward)
+        $details['Durata'] = convertToHoursMins($track->duration_forward,'%02dh %02dmin');
     if ($track->ascent)
         $details['Dislivello +'] = $track->ascent.'m';
     if ($track->descent)

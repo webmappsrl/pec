@@ -14,7 +14,10 @@
                 @endforeach
                 </div>
                 {{ $tracks->links() }}
-        </div>
+            </div>
+        @if ($tracks)
+            <x-taxonomy.leaflet-map :tracks="$tracks"/>
+        @endif
     </div>
     </main>
     <x-footer/>

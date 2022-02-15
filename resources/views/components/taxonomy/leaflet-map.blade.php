@@ -1,11 +1,5 @@
-@props(['link', 'tracks'])
+@props(['tracks'])
 @php
-    if ($link) {
-        $linkto = "https://3.app.geohub.webmapp.it/$link";
-    }
-    else {
-        $linkto = 'https://4.app.geohub.webmapp.it';
-    }
     $track_collection = [];
     foreach ($tracks as $track) {
         $res = DB::select(DB::raw('SELECT ST_ASGeoJSON(ST_Centroid(geometry)) as geojson from ec_tracks where id='.$track->id.'')); 
