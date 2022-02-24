@@ -1,9 +1,9 @@
 @props(['gallery'])
 
 
-<div class="swiper mySwiper">
+<div class="swiper trackSwiper">
     <div class="absolute inset-y-0 left-0 z-10 flex items-center">
-        <button @click="swiper.slidePrev()"
+        <button @click="trackSwiper.slidePrev()"
             class="-ml-4 lg:-ml-8 flex justify-start items-center w-10 h-10 rounded-full focus:outline-none">
             <svg viewBox="0 0 14 21" fill="currentColor" class="bi bi-chevron-left w-8 h-8">
                 <path fill-rule="evenodd"
@@ -30,7 +30,7 @@
         
     </div>
     <div class="absolute inset-y-0 right-0 z-10 flex items-center">
-        <button @click="swiper.slideNext()"
+        <button @click="trackSwiper.slideNext()"
             class="-mr-4 lg:-mr-8 flex justify-end items-center w-10 h-10 rounded-full focus:outline-none">
             <svg viewBox="0 0 14 21" fill="currentColor" class="bi bi-chevron-right w-8 h-8">
                 <path fill-rule="evenodd"
@@ -43,7 +43,7 @@
 </div>
 
 <script>
-    var swiper = new Swiper(".mySwiper", {
+    var trackSwiper = new Swiper(".trackSwiper", {
         loop: true,
         slidesPerView: 1,
         spaceBetween: 0,
@@ -61,11 +61,7 @@
                 slidesPerView: 3,
                 spaceBetween: 0,
             }
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
+        }
     });
 
 </script>

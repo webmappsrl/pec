@@ -4,6 +4,7 @@ window.$ = window.jQuery = require('jquery');
 
 import Alpine from 'alpinejs'
 import Swiper from 'swiper/bundle';
+import "leaflet";
 
 window.Swiper = Swiper;
 window.Alpine = Alpine
