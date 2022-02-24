@@ -1,5 +1,15 @@
 require('./bootstrap');
 
+window.$ = window.jQuery = require('jquery');
+
+import Alpine from 'alpinejs'
+import Swiper from 'swiper/bundle';
+
+window.Swiper = Swiper;
+window.Alpine = Alpine
+Alpine.start()
+
+
 window.tabApp = () => {
     return { 
         tab: window.location.hash ? window.location.hash.substring(1) : 'details',

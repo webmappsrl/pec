@@ -72,6 +72,9 @@ if (!function_exists('convertToHoursMins')){
         }
         $hours = floor($time / 60);
         $minutes = ($time % 60);
+        if ($hours == 0 ) {
+            return sprintf('%02dmin', $minutes);
+        }
         return sprintf($format, $hours, $minutes);
     }
 }
