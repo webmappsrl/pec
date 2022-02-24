@@ -15,8 +15,10 @@
                 <a href="{{$url}}" target="_blank" rel="noopener noreferrer" class="text-primary-border font-bold">{{$label}}</a><br>
             @endforeach
         @endif
-        @if ($gallery->count() > 0)
-            <x-track.carousel :gallery="$gallery" />
-        @endif
     </div>
+</div>
+<div class="max-w-screen-xl m-auto py-6 px-4 relative">
+    @if ($gallery->count() > 0)
+        <x-track.carousel :gallery="$gallery" />
+    @endif
 </div>
