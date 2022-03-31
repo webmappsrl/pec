@@ -32,7 +32,7 @@
     </nav>
   
     <!-- The tabs content -->
-    <div x-show="tab === 'details'" class="px-8 py-6">
+    <div x-show="tab === 'details'" class="px-4 md:px-8 py-6">
         <img src="{{$elevation_chart}}" alt="webmapp map" class="pb-6 w-full">
     
         @if (count($details) > 0)
