@@ -49,7 +49,7 @@
                 </button>
             </div>
             <nav :class="{'flex': open, 'hidden': !open}" class="pb-4 md:pb-0 hidden pec-menu-items">
-                <x-dropdown>
+                <x-dropdown :last="false">
                     
                     <x-slot name="trigger">
                         <x-dropdown-button>Aree protette</x-dropdown-button>
@@ -63,25 +63,38 @@
                     <x-dropdown-item href="/taxonomy/riserva-naturale-rupe-campotrera">Riserva Rupe di Campotrera</x-dropdown-item>
                     <x-dropdown-item href="/taxonomy/paesaggio-protetto-collina-reggiana-terre-di-matilde">Paesaggio Protetto Collina Reggiana - Terre di Matilde</x-dropdown-item>
                 </x-dropdown>
-                <x-dropdown>
+                <x-dropdown :last="false">
                     <x-slot name="trigger">
                         <x-dropdown-button>Attività</x-dropdown-button>
                     </x-slot>
                     <x-dropdown-item href="/taxonomy/hiking">Itinerari a piedi</x-dropdown-item>
                     <x-dropdown-item href="/taxonomy/cycling">Itinerari in bicicletta</x-dropdown-item>
                 </x-dropdown>
-                <x-dropdown>
+                <x-dropdown :last="false">
                     <x-slot name="trigger">
                         <x-dropdown-button>Percorsi tematici</x-dropdown-button>
                     </x-slot>
-                    <x-dropdown-item href="/taxonomy/recommended-route">Itinerari consogliati nelle Aree Protette</x-dropdown-item>
+                    <x-dropdown-item href="/taxonomy/recommended-route">Itinerari consigliati nelle Aree Protette</x-dropdown-item>
                     <x-dropdown-item href="/taxonomy/historical-route">Itinerari Storici</x-dropdown-item>
                     <x-dropdown-item href="/taxonomy/ridge-route">Itinerari in crinale</x-dropdown-item>
                     <x-dropdown-item href="/taxonomy/route-in-stages">Itinerari a tappe</x-dropdown-item>
                     <x-dropdown-item href="/taxonomy/cycle-route">Ciclovie dei Parchi</x-dropdown-item>
                     <x-dropdown-item href="/taxonomy/">Percosi Natura in bicicletta</x-dropdown-item>
                 </x-dropdown>
-                <a href="https://4.app.geohub.webmapp.it/" target="_blank" class="text-right inline-grid items-center grid-flow-col cursor-pointer text-primary px-6 py-2 hover:text-white hover:bg-primary"><p class="font-bold">Mappa interattiva</p></a>
+                <x-dropdown :last="true">
+                    <x-slot name="trigger">
+                        <x-dropdown-button>Percorsi a tappa</x-dropdown-button>
+                    </x-slot>
+                    <x-dropdown-item href="/taxonomy/alta-via-parchi">Alta Via dei Parchi</x-dropdown-item>
+                    <x-dropdown-item href="/taxonomy/piccola-cassia">Piccola Cassia</x-dropdown-item>
+                    <x-dropdown-item href="/taxonomy/percorso-natura-secchia">Percorso Natura Secchia</x-dropdown-item>
+                    <x-dropdown-item href="/taxonomy/sentiero-spallanzani">Sentiero Spallanzani</x-dropdown-item>
+                    <x-dropdown-item href="/taxonomy/sentiero-vulcani-fango">Sentiero dei Vulcani di fango</x-dropdown-item>
+                    <x-dropdown-item href="/taxonomy/via-germanica-imperiale">Via Germanica Imperiale</x-dropdown-item>
+                    <x-dropdown-item href="/taxonomy/via-matildica-volto-santo">Via Matildica del Volto Santo</x-dropdown-item>
+                    <x-dropdown-item href="/taxonomy/via-romea-nonantolana">Via Romea Nonantolana</x-dropdown-item>
+                </x-dropdown>
+                <a href="https://4.app.geohub.webmapp.it/" target="_blank" class="text-right inline-grid items-center grid-flow-col cursor-pointer text-primary px-6 py-2 hover:text-white hover:bg-primary"><p class="font-bold" style="display: none">Mappa interattiva</p></a>
             </nav>
         </div>
     </div>

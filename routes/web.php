@@ -45,6 +45,7 @@ Route::get('/', function () {
 Route::get('taxonomy/{taxonomy:identifier}',function (string $taxonomy) {
     try {
         $taxonomyType = '';
+        $paginations = 6;
 
         if ( $taxonomy == 'hiking' || $taxonomy == 'cycling' ) {
             $taxonomyObj = TaxonomyActivity::where('identifier',$taxonomy)->firstOrFail();
@@ -52,6 +53,10 @@ Route::get('taxonomy/{taxonomy:identifier}',function (string $taxonomy) {
         } elseif ( in_array($taxonomy,array('cycle-route','recommended-route','ridge-route','historical-route','route-in-stages'))) {
             $taxonomyObj = TaxonomyTheme::where('identifier',$taxonomy)->firstOrFail();
             $taxonomyType = 'TaxonomyThemes';
+        } elseif ( in_array($taxonomy,array('alta-via-parchi','piccola-cassia','percorso-natura-secchia','sentiero-spallanzani','sentiero-vulcani-fango','via-germanica-imperiale','via-matildica-volto-santo','via-romea-nonantolana'))) {
+            $taxonomyObj = TaxonomyTheme::where('identifier',$taxonomy)->firstOrFail();
+            $taxonomyType = 'TaxonomyThemes';
+            $paginations = 9;
         } else {
             $taxonomyObj = TaxonomyWhere::where('identifier',$taxonomy)->firstOrFail();
             $taxonomyType = 'taxonomyWheres';
@@ -61,7 +66,7 @@ Route::get('taxonomy/{taxonomy:identifier}',function (string $taxonomy) {
             return $query->where('user_id', '=', config('geohub.app_user'));
         })->whereRelation(
             $taxonomyType, 'identifier', '=',$taxonomy
-        )->orderBy('name', 'asc')->paginate(6);
+        )->orderBy('name', 'asc')->paginate($paginations);
     }
     catch (Exception $e) {
         abort(404);

@@ -4,12 +4,13 @@ window.$ = window.jQuery = require('jquery');
 
 import Alpine from 'alpinejs'
 import Swiper from 'swiper/bundle';
+import intersect from '@alpinejs/intersect'
 import "leaflet";
 
 window.Swiper = Swiper;
 window.Alpine = Alpine
 Alpine.start()
-
+Alpine.plugin(intersect)
 
 window.tabApp = () => {
     return { 
