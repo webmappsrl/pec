@@ -18,6 +18,12 @@ window.tabApp = () => {
     }
 }
 
+window.mobileSearch = () => {
+    return { 
+        search: false,
+    }
+}
+
 window.flash = message => window.dispatchEvent( new CustomEvent('flash', {detail: message}));
 
 function poiAddHighlight(e){

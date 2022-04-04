@@ -18,9 +18,9 @@
           <x-home.banner-slide source="{{asset('images/banner-4.png')}}" active="active == 4"></x-banner-slide>
             
             
-          <div class="absolute bottom-10 w-full">
-              <div class="max-w-screen-xl m-auto px-4">
-                  <h1 class="py-4 px-8 bg-white bg-opacity-70 rounded-xl max-w-3xl w-max text-primary text-4xl font-extrabold">Scopri i percorsi tematici e i luoghi di interesse delle Aree protette</h1>
+          <div class="absolute bottom-1 md:bottom-10 w-full">
+              <div class="max-w-screen-xl m-auto px-0 md:px-4">
+                  <h1 class="py-6 px-6 md:py-4 md:px-8 bg-white bg-opacity-70 md:rounded-xl max-w-3xl text-primary text-2xl md:text-4xl font-bold md:font-extrabold">Scopri i percorsi tematici e i luoghi di interesse delle Aree protette dell'Emilia Centrale</h1>
               </div>
           </div>
     </div>

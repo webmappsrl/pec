@@ -13,12 +13,12 @@
                 current = target
             }   
             }, interval)
-    }">
-    <div class="text-6xl text-green-800 font-bold text-right">
+    }" class="pb-6 md:pb-0">
+    <div class="text-6xl md:text-6xl text-green-800 font-bold text-left md:text-right">
         <span x-text="Math.round(current)"></span>
         <span>{{$unit}}</span>
     </div>
-    <div class="text-green-800 text-right pt-2 font-bold">
+    <div class="text-green-800 text-left md:text-right pt-2 font-bold">
         <p class="font-bold">{{$text}}</p>
     </div>
 </div>

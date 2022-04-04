@@ -4,8 +4,8 @@
     $details = array();
     if ($track->distance)
         $details['Lunghezza'] = $track->distance.'km';
-    if ($track->difficulty)
-        $details['Difficoltà'] = $track->difficulty;
+    if ($track->cai_scale)
+        $details['Difficoltà'] = $track->cai_scale;
     if ($track->duration_forward)
         $details['Durata'] = convertToHoursMins($track->duration_forward,'%2dh %02dmin');
     if ($track->ascent)

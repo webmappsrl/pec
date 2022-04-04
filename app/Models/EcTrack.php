@@ -54,8 +54,7 @@ class EcTrack extends Model
             $searchValues = preg_split('/\s+/', $search, -1, PREG_SPLIT_NO_EMPTY); 
             foreach ($searchValues as $value) {
                 $query
-                    ->where('name','ilike', '%' . $value . '%')
-                    ->orWhere('description','ilike', '%' . $value . '%');
+                    ->where('name','ilike', '%' . $value . '%');
             }
         });
     }
