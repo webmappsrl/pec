@@ -22,7 +22,7 @@
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 @foreach($features as $feature)
-                    <x-track-card :feature="$feature" />
+                    <x-track-card :feature="$feature" :highlights="true"/>
                 @endforeach
             </div>
         </div>

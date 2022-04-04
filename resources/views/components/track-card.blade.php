@@ -1,6 +1,7 @@
-<div class="swiper-slide px-2 md:px-8 py-8">
+@props(['highlights','feature'])
+<div @class(['swiper-slide md:px-8 py-8','px-8' => $highlights,'px-2' => !$highlights])>
     <a href="/track/{{$feature->id}}">
-    <div class="flex flex-col w-72 md:w-auto rounded-lg shadow-md overflow-hidden duration-300 hover:shadow-lg">
+    <div @class(['flex flex-col rounded-lg shadow-md overflow-hidden duration-300 hover:shadow-lg','w-72 md:w-auto' => ! $highlights])>
         <div class="flex-shrink-0">
             <img class="h-48 w-full object-cover" src="{{get_feature_image_thumbnail($feature,'1440x500')}}" alt="">
         </div>

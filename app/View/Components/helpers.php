@@ -80,6 +80,7 @@ if (!function_exists('convertToHoursMins')){
 }
 
 if (!function_exists('archiveCode')){
+    // Track
     // @if ($track->taxonomyWheres->count() > 0 )
     //     <div class="py-2">
     //     @foreach ($track->taxonomyWheres as $tax)
@@ -92,4 +93,11 @@ if (!function_exists('archiveCode')){
     //     @endforeach
     //     </div>
     // @endif
+    // POI
+    // @foreach ($poi->taxonomyWheres->pluck('name') as $name)
+    //     <div 
+    //     class="inline-flex items-center text-primary"
+    //     >{{$name}}{{ ($poi->taxonomyWheres->count() > 1 && !$loop->last ) ? ', ' : '' }}
+    //     </div>
+    // @endforeach
 }

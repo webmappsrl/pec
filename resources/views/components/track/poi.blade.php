@@ -34,12 +34,7 @@
         x-transition:leave-end="opacity-0 transform translate-x-full">
             <div class="flex justify-between">
                 <div class="py-2">
-                    @foreach ($poi->taxonomyWheres->pluck('name') as $name)
-                        <div 
-                        class="inline-flex items-center text-primary"
-                        >{{$name}}{{ ($poi->taxonomyWheres->count() > 1 && !$loop->last ) ? ', ' : '' }}
-                        </div>
-                    @endforeach
+                    
                 </div>
                 <div class="flex justify-end">
                     <div class="text-primary px-4 py-2 rounded no-outline focus:shadow-outline cursor-pointer closePOIpan" @click="open = false;document.body.style.overflowY = ''"><x-icon-close class="mr-2" width="20" height="20"/></div>
