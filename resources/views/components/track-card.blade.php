@@ -1,6 +1,6 @@
-<div class="swiper-slide p-8 md:p-2">
+<div class="swiper-slide px-2 md:px-8 py-8">
     <a href="/track/{{$feature->id}}">
-    <div class="flex flex-col rounded-lg shadow-md overflow-hidden duration-300 hover:shadow-lg">
+    <div class="flex flex-col w-72 md:w-auto rounded-lg shadow-md overflow-hidden duration-300 hover:shadow-lg">
         <div class="flex-shrink-0">
             <img class="h-48 w-full object-cover" src="{{get_feature_image_thumbnail($feature,'1440x500')}}" alt="">
         </div>

@@ -24,7 +24,7 @@
                     <x-icon-mail class="mr-2" width="20" height="16"/><p class="text-xs"><a href="mailto:info@parchiemiliacentrale.it">info@parchiemiliacentrale.it</a> • <a href="mailto:protocollo@pec.parchiemiliacentrale.it">protocollo@pec.parchiemiliacentrale.it</a></p>
                 </div>
             </div>
-            <div class="md:col-span-1 flex justify-end flex-wrap">
+            <div class="md:col-span-1 flex md:justify-end flex-wrap">
                 <img src="{{asset('images/loghi-footer-up.png')}}" alt="loghi collaborazione footer"  class="hidden md:block">
                 <img src="{{asset('images/Loghi_AAPP_EPEC_tutti.png')}}" alt="loghi AAPP EPEC footer"  class="hidden md:block">
                 <img src="{{asset('images/loghi-footer-up-mobile.png')}}" alt="loghi footer AAPP"  class="block md:hidden">
