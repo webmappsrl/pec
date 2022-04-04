@@ -92,7 +92,7 @@
                             <x-dropdown-item href="/taxonomy/ridge-route">Itinerari in crinale</x-dropdown-item>
                             <x-dropdown-item href="/taxonomy/route-in-stages">Itinerari a tappe</x-dropdown-item>
                             <x-dropdown-item href="/taxonomy/cycle-route">Ciclovie dei Parchi</x-dropdown-item>
-                            <x-dropdown-item href="/taxonomy/">Percorsi Natura in bicicletta</x-dropdown-item>
+                            <x-dropdown-item href="/taxonomy/percorso-natura-secchia">Percorsi Natura in bicicletta</x-dropdown-item>
                         </x-dropdown>
                         <x-dropdown :last="true">
                             <x-slot name="trigger">
