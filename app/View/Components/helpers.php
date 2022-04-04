@@ -78,3 +78,18 @@ if (!function_exists('convertToHoursMins')){
         return sprintf($format, $hours, $minutes);
     }
 }
+
+if (!function_exists('archiveCode')){
+    // @if ($track->taxonomyWheres->count() > 0 )
+    //     <div class="py-2">
+    //     @foreach ($track->taxonomyWheres as $tax)
+    //     @if (!in_array($tax->identifier,explode(',',config('geohub.exclude_wheres'))))
+    //         <div 
+    //         class="inline-flex items-center text-primary"
+    //         >{{$tax->name}}{{ ($track->taxonomyWheres->count() > 1 && !$loop->last ) ? ', ' : '' }}
+    //         </div>
+    //     @endif
+    //     @endforeach
+    //     </div>
+    // @endif
+}
