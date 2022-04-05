@@ -34,7 +34,7 @@
     </div>
     <div class="bg-primary-dark px-4 py-4">
         <div class="max-w-screen-xl m-auto">
-            <a class="text-primary font-bold text-sm hover:underline" target="_blank" href="parchiemiliacentrale.it">Privacy Policy</a>
+            <a href="https://www.iubenda.com/privacy-policy/80094272" class="text-primary font-bold text-sm hover:underline iubenda-noiframe iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
             {{-- <span class="mx-8"></span>
             <a class="text-primary font-bold text-sm hover:underline" target="_blank" href="parchiemiliacentrale.it">Note Legali</a> --}}
         </div>

@@ -25,7 +25,7 @@
     </div>
     
     <div class="fixed top-0 left-0 w-full h-full flex items-center justify-end z-1000 closePOIpan" style="display:none;background-color: rgba(0,0,0,.5);" x-show="open">
-        <div class="overflow-y-auto text-left bg-white h-screen p-4 md:max-w-xl md:p-12 shadow-xl mx-2 md:mx-0" @click.away="open = false;document.body.style.overflowY = ''"
+        <div class="overflow-y-auto text-left bg-white h-screen p-4 w-11/12 md:max-w-xl md:p-12 shadow-xl " @click.away="open = false;document.body.style.overflowY = ''"
         x-show="open"
         x-transition:enter="transition ease-out duration-300"
         x-transition:enter-start="opacity-0 transform translate-x-full"
