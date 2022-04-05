@@ -1,8 +1,5 @@
 @props(['trigger','last'])
 @php
-    use Jenssegers\Agent\Agent;
-    $agent = new Agent();
-
     $dropdown_classe = 'relative md:absolute w-full origin-top-right md:shadow-lg z-10 ';   
     
     if ($last) $dropdown_classe .= 'last-menu-item';

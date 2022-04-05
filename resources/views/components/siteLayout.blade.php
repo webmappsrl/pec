@@ -6,7 +6,7 @@
     <script src="{{ asset('js/app.js') }}" ></script>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>PEC</title>
+    <title>Itinerari - Parchi Emilia Centrale</title>
 </head>
 <body>
     {{$slot}}

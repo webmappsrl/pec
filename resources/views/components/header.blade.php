@@ -24,10 +24,10 @@
                     focused : false,
                 }" 
                 class="w-full rounded-md p-2 grid-flow-col inline-grid duration-150 transition-all" :style="'border: ' + (focused ? '3px solid #37B39F' : '1px solid #D9DBDA')">
-                    <form action="/search" method="get"  class="inline-flex m-0">
+                    <form action="/search" method="get"  class="flex m-0">
                         <button type="submit"><img src="{{asset('images/lent.png')}}" alt="search icon" class="cursor-pointer px-2 py-1"></button>
                         <input 
-                            type="text" name="search" placeholder="Cerca nel sito" class="focus:outline-none pl-4" x-model="value" 
+                            type="text" name="search" placeholder="Cerca nel sito" class="focus:outline-none pl-4" style="flex-grow:1;" x-model="value" 
                             :value="value"
                             @click="$nextTick(()=>{focused = true})" 
                             @click.away="focused = false"
