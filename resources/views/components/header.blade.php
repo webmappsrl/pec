@@ -96,11 +96,13 @@
                         </x-dropdown>
                         <x-dropdown :last="true">
                             <x-slot name="trigger">
-                                <x-dropdown-button>Percorsi a tappa</x-dropdown-button>
+                                <x-dropdown-button>Percorsi a tappe</x-dropdown-button>
                             </x-slot>
                             <x-dropdown-item href="/taxonomy/alta-via-parchi">Alta Via dei Parchi</x-dropdown-item>
                             <x-dropdown-item href="/taxonomy/piccola-cassia">Piccola Cassia</x-dropdown-item>
                             <x-dropdown-item href="/taxonomy/percorso-natura-secchia">Percorso Natura Secchia</x-dropdown-item>
+                            <x-dropdown-item href="/taxonomy/sentiero-ducati">Sentiero dei Ducati</x-dropdown-item>
+                            <x-dropdown-item href="/taxonomy/sentiero-europeo-e1">Sentiero Europeo E1</x-dropdown-item>
                             <x-dropdown-item href="/taxonomy/sentiero-spallanzani">Sentiero Spallanzani</x-dropdown-item>
                             <x-dropdown-item href="/taxonomy/sentiero-vulcani-fango">Sentiero dei Vulcani di fango</x-dropdown-item>
                             <x-dropdown-item href="/taxonomy/via-germanica-imperiale">Via Germanica Imperiale</x-dropdown-item>

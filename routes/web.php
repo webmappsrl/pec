@@ -53,7 +53,8 @@ Route::get('taxonomy/{taxonomy:identifier}',function (string $taxonomy) {
         } elseif ( in_array($taxonomy,array('cycle-route','recommended-route','ridge-route','historical-route','route-in-stages'))) {
             $taxonomyObj = TaxonomyTheme::where('identifier',$taxonomy)->firstOrFail();
             $taxonomyType = 'TaxonomyThemes';
-        } elseif ( in_array($taxonomy,array('alta-via-parchi','piccola-cassia','percorso-natura-secchia','sentiero-spallanzani','sentiero-vulcani-fango','via-germanica-imperiale','via-matildica-volto-santo','via-romea-nonantolana'))) {
+        } elseif ( in_array($taxonomy,array('alta-via-parchi','piccola-cassia','percorso-natura-secchia','sentiero-spallanzani','sentiero-vulcani-fango','via-germanica-imperiale','via-matildica-volto-santo','via-romea-nonantolana','sentiero-ducati','
+        sentiero-europeo-e1'))) {
             $taxonomyObj = TaxonomyTheme::where('identifier',$taxonomy)->firstOrFail();
             $taxonomyType = 'TaxonomyThemes';
             $paginations = 9;
