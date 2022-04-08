@@ -17,11 +17,11 @@
                 <div class="flex pb-2">
                     <x-icon-pa class="mr-2" width="20" height="18"/><p class="text-xs">Sede legale: Viale Martiri della Libertà 34 – 41121 Modena<br>C.F. 94164020367 • Part. IVA 03435780360</p>
                 </div>
-                <div class="flex pb-2">
+                {{-- <div class="flex pb-2">
                     <x-icon-phone class="mr-2" width="20" height="20"/><p class="text-xs">tel <a href="tel:059 209311">059 209311</a> • cell <a href="tel:348 5219711">348 5219711</a> • fax <a href="tel:059 209803">059 209803</a></p>
-                </div>
+                </div> --}}
                 <div class="flex pb-2 items-center">
-                    <x-icon-mail class="mr-2" width="20" height="16"/><p class="text-xs"><a href="mailto:info@parchiemiliacentrale.it">info@parchiemiliacentrale.it</a> • <a href="mailto:protocollo@pec.parchiemiliacentrale.it">protocollo@pec.parchiemiliacentrale.it</a></p>
+                    <x-icon-mail class="mr-2" width="20" height="16"/><p class="text-xs"><a href="mailto:info@parchiemiliacentrale.it">info@parchiemiliacentrale.it</a></p>
                 </div>
             </div>
             <div class="md:col-span-1 flex md:justify-end flex-wrap">
