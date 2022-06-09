@@ -30,15 +30,15 @@ Route::get('/', function () {
         return $query->where('user_id', '=', config('geohub.app_user'));
     })->inRandomOrder()->has('ecTracks')->limit(5)->get();
  
-    // Taxonomy where ids: I parchi and sort them by the given sequence
-    $taxonomyWhere = TaxonomyWhere::find([13220,13221,13214,13216,13217,13213,13215,13219])->sortBy(function($el){
-        return array_search($el->getKey(), [13220,13221,13214,13216,13217,13213,13215,13219]);
+    // Taxonomy theme ids: I parchi and sort them by the given sequence
+    $taxonomyTheme = TaxonomyTheme::find([22,21,27,25,24,28,26,23])->sortBy(function($el){
+        return array_search($el->getKey(), [22,21,27,25,24,28,26,23]);
     });
 
     return view('homepage',[
         'tracks' => $tracks,
         'pois' => $pois,
-        'taxonomyWhere' => $taxonomyWhere,
+        'taxonomyWhere' => $taxonomyTheme,
     ]);
 });
 
@@ -53,7 +53,7 @@ Route::get('taxonomy/{taxonomy:identifier}',function (string $taxonomy) {
         } elseif ( in_array($taxonomy,array('cycle-route','recommended-route','ridge-route','historical-route','route-in-stages'))) {
             $taxonomyObj = TaxonomyTheme::where('identifier',$taxonomy)->firstOrFail();
             $taxonomyType = 'TaxonomyThemes';
-        } elseif ( in_array($taxonomy,array('alta-via-parchi','piccola-cassia','percorso-natura-secchia','sentiero-spallanzani','sentiero-vulcani-fango','via-germanica-imperiale','via-matildica-volto-santo','via-romea-nonantolana','sentiero-ducati','sentiero-europeo-e1'))) {
+        } elseif ( in_array($taxonomy,array('alta-via-parchi','piccola-cassia','percorso-natura-secchia','sentiero-spallanzani','sentiero-vulcani-fango','via-germanica-imperiale','via-matildica-volto-santo','via-romea-nonantolana','sentiero-ducati','sentiero-europeo-e1','riserva-naturale-cassa-espansione-fiume-secchia-pec','riserva-naturale-fontanili-corte-valle-re-pec','riserva-naturale-rupe-campotrera-pec','riserva-naturale-salse-nirano-pec','riserva-naturale-sassoguidano-pec','paesaggio-protetto-collina-reggiana-terre-di-matilde-pec','parco-frignano-pec','parco-sassi-roccamalatina-pec','hiking-pec'))) {
             $taxonomyObj = TaxonomyTheme::where('identifier',$taxonomy)->firstOrFail();
             $taxonomyType = 'TaxonomyThemes';
             $paginations = 9;

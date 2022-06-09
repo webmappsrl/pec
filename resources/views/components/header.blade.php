@@ -67,14 +67,14 @@
                             <x-slot name="trigger">
                                 <x-dropdown-button>Aree protette</x-dropdown-button>
                             </x-slot>
-                            <x-dropdown-item href="/taxonomy/parco-frignano">Parco del Frignano</x-dropdown-item>
-                            <x-dropdown-item href="/taxonomy/parco-sassi-roccamalatina">Parco dei Sassi di Roccamalatina</x-dropdown-item>
-                            <x-dropdown-item href="/taxonomy/riserva-naturale-fontanili-corte-valle-re">Riserva Fontanili di Corte Valle Re</x-dropdown-item>
-                            <x-dropdown-item href="/taxonomy/riserva-naturale-salse-nirano">Riserva Salse di Nirano</x-dropdown-item>
-                            <x-dropdown-item href="/taxonomy/riserva-naturale-sassoguidano">Riserva Sassoguidano</x-dropdown-item>
-                            <x-dropdown-item href="/taxonomy/riserva-naturale-cassa-espansione-fiume-secchia">Riserva Cassa di espansione del fiume Secchia</x-dropdown-item>
-                            <x-dropdown-item href="/taxonomy/riserva-naturale-rupe-campotrera">Riserva Rupe di Campotrera</x-dropdown-item>
-                            <x-dropdown-item href="/taxonomy/paesaggio-protetto-collina-reggiana-terre-di-matilde">Paesaggio Protetto Collina Reggiana - Terre di Matilde</x-dropdown-item>
+                            <x-dropdown-item href="/taxonomy/parco-frignano-pec">Parco del Frignano</x-dropdown-item>
+                            <x-dropdown-item href="/taxonomy/parco-sassi-roccamalatina-pec">Parco dei Sassi di Roccamalatina</x-dropdown-item>
+                            <x-dropdown-item href="/taxonomy/riserva-naturale-fontanili-corte-valle-re-pec">Riserva Fontanili di Corte Valle Re</x-dropdown-item>
+                            <x-dropdown-item href="/taxonomy/riserva-naturale-salse-nirano-pec">Riserva Salse di Nirano</x-dropdown-item>
+                            <x-dropdown-item href="/taxonomy/riserva-naturale-sassoguidano-pec">Riserva Sassoguidano</x-dropdown-item>
+                            <x-dropdown-item href="/taxonomy/riserva-naturale-cassa-espansione-fiume-secchia-pec">Riserva Cassa di espansione del fiume Secchia</x-dropdown-item>
+                            <x-dropdown-item href="/taxonomy/riserva-naturale-rupe-campotrera-pec">Riserva Rupe di Campotrera</x-dropdown-item>
+                            <x-dropdown-item href="/taxonomy/paesaggio-protetto-collina-reggiana-terre-di-matilde-pec">Paesaggio Protetto Collina Reggiana - Terre di Matilde</x-dropdown-item>
                         </x-dropdown>
                         <x-dropdown :last="false">
                             <x-slot name="trigger">
