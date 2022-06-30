@@ -31,6 +31,12 @@
                 <img src="{{asset('images/Loghi_AAPP_EPEC_tutti_mobile.png')}}" alt="loghi footer AAPP"  class="block md:hidden">
             </div>
         </div>
+        <div class="max-w-screen-xl m-auto grid border-t border-primary-border mt-6 pt-6">
+            <p class="m-0 uppercase pb-4 text-sm">AVVERTENZA:</p>  
+            <p class="m-0 pb-4 text-xs">Gli itinerari proposti in questo sito sono organizzati sulla base della Rete Escursionistica dell’Emilia Romagna (REER) e ideati dall’Ente Parchi Emilia Centrale o da altri enti o associazioni che li hanno proposti. Gli itinerari di più giorni, a tappe o tematici, fanno capo ad associazioni che ne curano la percorribilità e la riconoscibilità sul territorio; i contatti ed il sito web di ogni cammino sono riportati nella scheda. La Rete Escursionistica “base” corrisponde al catasto dei sentieri della Regione Emilia Romagna (REER) riportata al link <a href='https://servizimoka.regione.emilia-romagna.it/mokaApp/apps/REER/index.html' target="_blank"> www.servizimoka.regione.emilia-romagna.it </a> ed aggiornata attraverso il confronto con: le sezioni CAI di Modena, Reggio Emilia, Pavullo nel Frignano e Sassuolo, i Comuni montani dell’Unione Distretto Ceramico, i Comuni di Polinago e Serramazzoni e altri soggetti promotori e gestori dei sentieri. Nel caso in cui si riscontrino errori nelle descrizioni o nelle tracce di sentieri o itinerari, oppure si verifichino problemi sulla percorribilità si prega di inviare una comunicazione all’e-mail: <a href="mailto:itinerari@parchiemiliacentrale.it">itinerari@parchiemiliacentrale.it</a>. La stessa e-mail può essere utilizzata per proporre nuovi itinerari nell’ambito delle province di Modena e Reggio Emilia.
+                </p>  
+            
+        </div>
     </div>
     <div class="bg-primary-dark px-4 py-4">
         <div class="max-w-screen-xl m-auto">
