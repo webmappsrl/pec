@@ -9,7 +9,7 @@
             <h3>Descrizione</h3>
             {!! $track->description !!}
         @endif
-        @if (count($related_urls) > 0)
+        @if (is_array($related_urls) && count($related_urls) > 0)
             <h4>Link utili</h4>
             @foreach ($related_urls as $label => $url)
                 <a href="{{$url}}" target="_blank" rel="noopener noreferrer" class="text-primary-border font-bold">{{$label}}</a><br>
